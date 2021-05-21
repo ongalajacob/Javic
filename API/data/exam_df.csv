@@ -1,0 +1,521 @@
+id,classregisterid,examtype,year,term,grade,classteacher,adm,name_stud,dob,sex_stud,enrolstatus,maths,englan,engcomp,kislug,kisins,social,creative,cre,science,hmscie,agric,music,pe
+20,27,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,300.0,Albright Mitchelle Ouma,2012-02-10,Female,In_Session,0,0,0,0,0,0,0,0,0,0,0,0,0
+21,28,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,313.0,Bill Otieno Onyango,2010-05-15,Male,In_Session,51,39,23,39,28,26,34,24,98,39,41,20,72
+22,29,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,57.0,Brigit Judy Owano,2017-05-22,Female,In_Session,73,46,38,41,38,31,38,44,88,48,35,20,92
+23,30,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,95.0,Cornel Fernandos Juma,,Male,In_Session,65,46,12,38,30,20,32,26,84,41,38,22,60
+24,31,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,213.0,Delan Charles Odhiambo,2009-11-15,Male,In_Session,51,46,26,38,33,28,28,32,86,42,41,26,60
+25,32,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,212.0,Dylia Sophy Odhiambo,2019-11-14,Female,In_Session,70,49,43,43,37,40,44,48,94,46,39,26,84
+26,33,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,88.0,Ednah Awuor Ondari,,Female,exits,54,36,22,38,38,28,30,20,76,39,33,14,88
+27,34,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,181.0,Ester Precious Magret Liyala,2011-04-03,Female,In_Session,84,49,40,44,37,34,48,48,96,44,48,28,92
+28,35,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,226.0,Katheryn Fejenia Wanyama,2010-06-18,Female,In_Session,72,47,30,42,35,27,34,28,86,41,46,26,76
+29,36,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,282.0,Kerry Dalmas Otieno,2010-12-15,Male,In_Session,54,21,12,36,26,23,26,26,70,28,16,14,28
+30,37,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,252.0,Meths Rino Nyagol,2010-07-23,Male,In_Session,72,46,15,40,36,27,38,34,66,42,41,24,60
+31,38,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,234.0,Patrick Oduor Odhiambo,2007-02-09,Male,In_Session,33,7,12,15,19,10,20,8,34,23,5,10,36
+32,39,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,96.0,Phabian Otieno,2008-01-01,Male,In_Session,43,40,15,40,25,26,30,36,64,33,33,20,52
+33,40,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,37.0,Rebecca Stephanie Ojwang',2010-09-02,Female,In_Session,54,25,10,11,22,14,16,12,44,25,19,12,56
+34,41,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,54.0,Reinhard Levi Onyango,2010-09-10,Male,In_Session,74,45,28,41,35,25,34,36,90,43,36,14,52
+35,42,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,21.0,Rosa Akinyi Aluoch,2010-06-15,Female,In_Session,20,39,12,38,19,12,28,30,64,35,30,22,68
+36,43,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,113.0,Shantel Whitney Otieno,2009-12-23,Female,In_Session,69,43,28,40,36,31,34,28,90,42,38,32,92
+37,44,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,347.0,Teddy Brian Okoth,2011-03-29,Male,In_Session,0,0,0,0,0,0,0,0,0,0,0,0,0
+38,58,Exams,2020.0,Term 2,Grade4,Rebecca Aswani Manyasa,33.0,Scortfied Joseph Ochieng',,Male,In_Session,67,42,20,38,30,26,36,36,86,36,29,20,92
+46,391,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,434.0,Aden Norlan Odhiambo,2017-07-17,Male,In_Session,65,70,0,0,0,0,53,65,58,0,0,0,0
+47,271,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,317.0,Allan Derick Omondi,2016-06-11,Male,In_Session,77,67,0,0,0,0,66,77,78,0,0,0,0
+48,354,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,410.0,Ann Purity Adhiambo,1111-01-01,Female,In_Session,76,78,0,0,0,0,77,80,62,0,0,0,0
+49,339,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,404.0,Auldrey Blessing Otieno,2016-01-01,Female,In_Session,83,85,0,0,0,0,70,75,75,0,0,0,0
+50,380,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,427.0,Bellary David Onyango,2016-02-06,Male,In_Session,80,75,0,0,0,0,85,70,68,0,0,0,0
+51,272,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,307.0,Benard Odhiambo,,Male,In_Session,75,74,0,0,0,0,60,67,69,0,0,0,0
+52,387,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,432.0,Bryden MartJunior Mwenda,2016-07-24,Male,In_Session,78,74,0,0,0,0,75,80,65,0,0,0,0
+53,362,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,416.0,Christian Joel,2017-02-04,Male,In_Session,60,50,0,0,0,0,55,59,65,0,0,0,0
+54,275,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,355.0,Daniel Mainya Obor,2016-09-22,Male,In_Session,75,80,0,0,0,0,70,73,76,0,0,0,0
+55,276,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,302.0,Daniela Mary Egessa,2016-12-27,Female,In_Session,79,77,0,0,0,0,70,65,57,0,0,0,0
+56,324,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,395.0,David  Kariuki,2017-04-14,Male,In_Session,70,70,0,0,0,0,62,75,57,0,0,0,0
+57,352,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,414.0,Easther Awino Odhiambo,2017-07-11,Female,In_Session,72,75,0,0,0,0,75,79,68,0,0,0,0
+58,360,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,406.0,Erica Night Kooyo,2017-07-17,Female,In_Session,65,62,0,0,0,0,63,67,45,0,0,0,0
+59,279,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,345.0,Faith Nanjala Odhiambo,2014-01-04,Female,In_Session,75,85,0,0,0,0,85,81,75,0,0,0,0
+60,280,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,310.0,Fidel Mboo Otieno,2016-07-02,Male,In_Session,85,88,0,0,0,0,80,82,80,0,0,0,0
+61,346,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,407.0,Gloria Achieng,2017-06-06,Female,In_Session,69,62,0,0,0,0,68,65,60,0,0,0,0
+62,281,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,272.0,Gloria Penina Odiyo,2016-03-27,Female,In_Session,85,71,0,0,0,0,70,83,79,0,0,0,0
+63,329,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,391.0,Glory Asenath Achieng,2016-11-12,Female,In_Session,85,61,0,0,0,0,67,71,72,0,0,0,0
+64,335,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,400.0,Hadassah Gloria Zephania,2017-07-13,Female,In_Session,45,45,0,0,0,0,65,60,55,0,0,0,0
+65,284,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,368.0,Jackline Atieno Opiyo,,Female,In_Session,95,80,0,0,0,0,75,80,78,0,0,0,0
+66,317,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,385.0,Jaiden Allan Ogosy,2017-07-24,Male,In_Session,60,76,0,0,0,0,45,65,54,0,0,0,0
+67,289,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,330.0,Jasmine Bright,2016-12-15,Female,In_Session,80,73,0,0,0,0,73,76,61,0,0,0,0
+68,286,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,335.0,Jaydendavid Favour Juma,2017-05-06,Male,In_Session,72,67,0,0,0,0,60,67,64,0,0,0,0
+69,287,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,334.0,Jenipher Wanjala Wafula,2015-10-19,Female,In_Session,87,76,0,0,0,0,79,85,71,0,0,0,0
+70,288,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,339.0,John Oliech Nyambok,2016-08-11,Male,In_Session,65,77,0,0,0,0,76,74,70,0,0,0,0
+71,382,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,429.0,Josephine Ivy Olal,1111-11-11,Female,In_Session,62,63,0,0,0,0,65,56,60,0,0,0,0
+72,290,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,373.0,Kyla Gumba Onyango,,,In_Session,78,69,0,0,0,0,73,78,70,0,0,0,0
+73,291,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,374.0,Laura Awino Omollo,,Female,In_Session,80,81,0,0,0,0,75,77,65,0,0,0,0
+74,393,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,379.0,Leonidah Daizy Awino,,Female,In_Session,75,68,0,0,0,0,72,79,63,0,0,0,0
+75,293,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,309.0,Levi Kiptoo Mosop,2016-10-08,Male,In_Session,70,61,0,0,0,0,60,55,63,0,0,0,0
+76,294,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,364.0,Marlin Kipchumba Rono,2015-07-19,Male,In_Session,79,78,0,0,0,0,70,80,69,0,0,0,0
+77,295,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,342.0,Marvel Junior Otieno,2018-08-19,Male,In_Session,76,74,0,0,0,0,80,79,77,0,0,0,0
+78,296,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,311.0,Marvellous Mercy,,,In_Session,76,84,0,0,0,0,80,79,77,0,0,0,0
+79,297,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,352.0,Mary Shantel,2016-08-05,Female,In_Session,70,79,0,0,0,0,69,75,73,0,0,0,0
+80,321,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,399.0,Max Iden Omondi,2017-05-07,Male,In_Session,75,65,0,0,0,0,64,64,57,0,0,0,0
+81,299,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,273.0,Nivaldoh Johnes,,Male,In_Session,73,88,0,0,0,0,79,81,69,0,0,0,0
+82,385,CAT1,2020.0,Term 2,Baby1,Josephine Anyango Opon,431.0,Sheryl Olive Okello,2018-05-12,Female,In_Session,60,0,0,0,0,0,0,0,0,0,0,0,0
+83,300,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,336.0,Paul Check Odhiambo,2016-11-28,Male,In_Session,60,69,0,0,0,0,58,57,57,0,0,0,0
+84,301,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,257.0,Purity Carol Otieno,2017-04-13,Female,In_Session,80,85,0,0,0,0,60,75,69,0,0,0,0
+85,383,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,359.0,Samuel Emmanuel Onuong'a,2016-08-25,Male,In_Session,68,79,0,0,0,0,68,66,72,0,0,0,0
+86,304,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,369.0,Shally Brandy Kariuki,2018-01-18,Female,In_Session,85,78,0,0,0,0,63,77,68,0,0,0,0
+87,313,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,381.0,Shana Mary Ochieng,2015-12-23,Female,In_Session,90,80,0,0,0,0,80,80,77,0,0,0,0
+88,309,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,267.0,Tracey Nicole,2016-08-17,Female,In_Session,73,79,0,0,0,0,73,76,75,0,0,0,0
+89,395,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,436.0,Viola Adhiambo Odhiambo,2017-03-21,Female,In_Session,70,55,0,0,0,0,73,77,75,0,0,0,0
+90,373,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,422.0,Wendy Roseline,1111-11-11,Female,In_Session,65,61,0,0,0,0,65,54,61,0,0,0,0
+91,310,CAT1,2020.0,Term 2,Baby,Josephine Anyango Opon,371.0,Yvonne Achieng' Okech,2016-11-04,Female,In_Session,60,74,0,0,0,0,67,68,68,0,0,0,0
+93,240,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,175.0,Arriana Joseph,,Female,In_Session,96,95,0,0,0,0,85,80,80,0,0,0,0
+94,390,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,250.0,Ashley Sharneez Joy Omondi,2016-08-16,Female,In_Session,96,100,0,0,0,0,70,90,85,0,0,0,0
+95,241,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,246.0,Bless Hellen Odiwuor,2016-05-21,Female,In_Session,96,100,0,0,0,0,80,85,75,0,0,0,0
+96,389,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,420.0,Braxton Adams Samba,2016-01-27,Male,In_Session,96,95,0,0,0,0,55,70,70,0,0,0,0
+97,242,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,268.0,Brian Nicholas,2015-05-19,Male,In_Session,92,90,0,0,0,0,70,85,65,0,0,0,0
+98,366,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,419.0,Brighton Omondi Odiwuor,1111-01-11,Male,In_Session,84,90,0,0,0,0,80,65,55,0,0,0,0
+99,381,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,428.0,Caesy Ngure,2015-03-26,Male,In_Session,96,90,0,0,0,0,90,80,80,0,0,0,0
+100,243,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,258.0,Collins Onyango Omondi,2014-09-15,Male,In_Session,100,100,0,0,0,0,95,90,90,0,0,0,0
+101,244,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,228.0,Crispine Enock Mutai,2015-02-27,Male,In_Session,100,100,0,0,0,0,95,80,90,0,0,0,0
+102,330,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,390.0,Dlamini Musumu Ooko,2015-07-28,Female,In_Session,84,90,0,0,0,0,55,75,65,0,0,0,0
+103,326,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,394.0,Euphemiah Akinyi,2015-08-27,Female,In_Session,100,100,0,0,0,0,95,100,95,0,0,0,0
+104,247,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,337.0,Fredrick Ochieng' Odhiambo,2014-10-02,Male,In_Session,92,95,0,0,0,0,65,80,70,0,0,0,0
+105,248,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,353.0,Frida Joy Chieng',2016-01-19,Female,In_Session,96,95,0,0,0,0,80,95,95,0,0,0,0
+107,376,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,425.0,Hilda Akinyi,2016-10-16,Female,In_Session,84,95,0,0,0,0,55,70,75,0,0,0,0
+108,250,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,259.0,Isaac Brandy Ndale,2015-04-21,Male,In_Session,100,100,0,0,0,0,100,85,100,0,0,0,0
+109,379,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,323.0,Javan Japheth Obwoge,2015-08-08,Male,In_Session,96,100,0,0,0,0,80,90,85,0,0,0,0
+110,252,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,363.0,Jayden Smith Okeyo,2016-05-16,Male,In_Session,96,100,0,0,0,0,70,90,85,0,0,0,0
+111,253,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,230.0,Jeremy Walter Odhiambo,2015-04-02,Male,In_Session,96,95,0,0,0,0,70,85,75,0,0,0,0
+112,254,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,360.0,Joy Vera Ayoo,2015-05-19,Female,In_Session,96,95,0,0,0,0,90,90,95,0,0,0,0
+113,255,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,194.0,Mary Wendy Omondi,2016-03-19,Female,In_Session,96,100,0,0,0,0,80,85,75,0,0,0,0
+114,257,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,254.0,Olivia Akinyi Odhiambo,,Female,In_Session,96,95,0,0,0,0,80,90,75,0,0,0,0
+115,258,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,235.0,Olivia Awuor Sadia,2015-09-16,Female,In_Session,100,100,0,0,0,0,100,100,85,0,0,0,0
+116,322,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,398.0,Patient Nadia,2020-01-01,Female,In_Session,80,95,0,0,0,0,55,65,60,0,0,0,0
+117,259,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,305.0,Peter Pokoit Simiyu,2014-05-10,Male,In_Session,92,95,0,0,0,0,75,80,75,0,0,0,0
+118,359,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,408.0,Pharell Tumaini Omondi,2015-04-11,Male,In_Session,92,90,0,0,0,0,65,80,70,0,0,0,0
+119,399,CAT1,,,,,,,,,,96,95,0,0,0,0,75,80,70,0,0,0,0
+120,333,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,388.0,Princes Tamara,2016-01-22,Female,In_Session,92,85,0,0,0,0,80,65,60,0,0,0,0
+121,261,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,276.0,Purity Atieno Otieno,2014-09-03,Female,In_Session,100,100,0,0,0,0,100,95,100,0,0,0,0
+122,262,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,224.0,Rose Malaika Anyango,2015-12-29,Female,In_Session,96,95,0,0,0,0,75,70,70,0,0,0,0
+123,266,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,285.0,Sharlet Kimberly Odede,2016-03-30,Female,In_Session,100,95,0,0,0,0,100,100,100,0,0,0,0
+124,267,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,248.0,Tom Omollo Jowi,2015-09-15,Male,In_Session,92,100,0,0,0,0,85,70,50,0,0,0,0
+125,331,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,389.0,Tracy Tiffany Ochieng,2015-02-23,Female,In_Session,96,95,0,0,0,0,55,63,65,0,0,0,0
+126,268,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,354.0,Walter Gift Ochieng',2016-01-16,Male,In_Session,88,95,0,0,0,0,80,75,65,0,0,0,0
+127,269,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,193.0,Williams Akoth Omondi,2015-11-22,Male,In_Session,70,60,0,0,0,0,60,65,80,0,0,0,0
+128,270,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,229.0,Yeffel Schuller Otieno,2015-12-06,Male,In_Session,85,95,0,0,0,0,50,75,70,0,0,0,0
+129,399,CAT1,,,,,,,,,,92,95,0,0,0,0,70,65,60,0,0,0,0
+130,400,CAT1,2020.0,Term 2,PP1,Jacynter Akoth,274.0,John Mwereza,2015-06-30,Male,In_Session,92,85,0,0,0,0,75,70,70,0,0,0,0
+131,202,CAT1,2020.0,Term 2,PP2,Faith Adongo,288.0,Abigael Ira Ochieng,2015-01-21,Female,In_Session,80,80,0,45,0,0,79,80,72,0,0,0,0
+132,203,CAT1,2020.0,Term 2,PP2,Faith Adongo,103.0,Accllytte Loves Okun,2014-12-31,Female,In_Session,98,96,0,100,0,0,74,84,100,0,0,0,0
+133,315,CAT1,2020.0,Term 2,PP2,Faith Adongo,383.0,Adrian Isaiah Sumari,2015-06-13,Male,In_Session,90,84,0,75,0,0,79,80,64,0,0,0,0
+134,205,CAT1,2020.0,Term 2,PP2,Faith Adongo,162.0,Aloyce Akello Nyambok,2014-08-12,Male,In_Session,98,68,0,80,0,0,79,84,88,0,0,0,0
+135,206,CAT1,2020.0,Term 2,PP2,Faith Adongo,128.0,Alpha-Peter Olwalo Ochieng,2015-01-03,Male,In_Session,80,92,0,95,0,0,69,88,72,0,0,0,0
+136,207,CAT1,2020.0,Term 2,PP2,Faith Adongo,150.0,Ayub Ochieng Odhiambo,2013-03-20,Male,In_Session,95,96,0,60,0,0,74,80,76,0,0,0,0
+137,208,CAT1,,,,,,,,,,75,56,0,25,0,0,49,68,64,0,0,0,0
+138,209,CAT1,2020.0,Term 2,PP2,Faith Adongo,358.0,Brigton Ochieng' Ouma,2010-08-10,Male,In_Session,86,76,0,25,0,0,69,44,44,0,0,0,0
+139,388,CAT1,2020.0,Term 2,PP2,Faith Adongo,421.0,Byron Allan Samba,2014-09-12,Male,In_Session,88,84,0,35,0,0,79,80,68,0,0,0,0
+140,210,CAT1,2020.0,Term 2,PP2,Faith Adongo,154.0,Byron Jerry Onyango Ooko,2013-09-08,Male,In_Session,85,76,0,75,0,0,79,80,64,0,0,0,0
+141,314,CAT1,2020.0,Term 2,PP2,Faith Adongo,382.0,Felix Otieno Okiri,2021-01-01,Male,In_Session,93,80,0,70,0,0,74,84,100,0,0,0,0
+142,212,CAT1,2020.0,Term 2,PP2,Faith Adongo,133.0,Firmy Natasha Onyango,2014-10-31,Female,In_Session,90,88,0,100,0,0,79,92,100,0,0,0,0
+143,213,CAT1,2020.0,Term 2,PP2,Faith Adongo,214.0,Gerald James Oboo,,,In_Session,85,96,0,95,0,0,79,84,60,0,0,0,0
+144,214,CAT1,2020.0,Term 2,PP2,Faith Adongo,138.0,Hannipher Bahati Okal,2015-02-12,Female,In_Session,95,96,0,100,0,0,79,80,100,0,0,0,0
+145,215,CAT1,2020.0,Term 2,PP2,Faith Adongo,261.0,Jane Akumu Alango,2019-01-14,Female,In_Session,88,68,0,50,0,0,79,76,96,0,0,0,0
+146,216,CAT1,2020.0,Term 2,PP2,Faith Adongo,187.0,Jayden George Otieno,,Male,In_Session,88,84,0,60,0,0,74,92,76,0,0,0,0
+147,217,CAT1,2020.0,Term 2,PP2,Faith Adongo,124.0,Jean Edna Wanyama,2014-06-24,Female,In_Session,88,80,0,75,0,0,79,76,100,0,0,0,0
+148,218,CAT1,2020.0,Term 2,PP2,Faith Adongo,316.0,Joan Hawi Odhiambo,2014-10-11,Female,In_Session,100,96,0,100,0,0,79,92,100,0,0,0,0
+149,219,CAT1,2020.0,Term 2,PP2,Faith Adongo,141.0,Johnson Ouma Otieno,2014-07-22,Male,In_Session,93,72,0,85,0,0,79,92,88,0,0,0,0
+150,221,CAT1,2020.0,Term 2,PP2,Faith Adongo,60.0,Juliet Atieno Otieno,,Female,In_Session,65,24,0,25,0,0,69,56,72,0,0,0,0
+151,328,CAT1,2020.0,Term 2,PP2,Faith Adongo,392.0,Loviance Candy,2015-05-08,Female,In_Session,95,92,0,75,0,0,79,80,80,0,0,0,0
+152,222,CAT1,2020.0,Term 2,PP2,Faith Adongo,178.0,Maggy Victoline Otieno,,Female,In_Session,78,64,0,50,0,0,69,76,72,0,0,0,0
+153,357,CAT1,2020.0,Term 2,PP2,Faith Adongo,413.0,Malika Helda Adhiambo,2015-06-11,Female,In_Session,90,92,0,100,0,0,79,84,72,0,0,0,0
+154,223,CAT1,2020.0,Term 2,PP2,Faith Adongo,350.0,Marvel Achieng' Okoth,2014-10-14,Female,In_Session,90,96,0,65,0,0,79,92,72,0,0,0,0
+155,224,CAT1,2020.0,Term 2,PP2,Faith Adongo,117.0,Merliah Anyango Auma,2017-08-06,Female,In_Session,83,80,0,100,0,0,69,72,80,0,0,0,0
+156,225,CAT1,2020.0,Term 2,PP2,Faith Adongo,142.0,Miracle Kaila Juma,2014-12-16,Female,In_Session,83,76,0,45,0,0,74,80,48,0,0,0,0
+157,353,CAT1,2020.0,Term 2,PP2,Faith Adongo,409.0,Mitchel Adhiambo,2014-04-11,Female,In_Session,98,100,0,100,0,0,79,84,84,0,0,0,0
+158,375,CAT1,2020.0,Term 2,PP2,Faith Adongo,424.0,Naomi Adhiambo Odam,2000-01-08,Female,In_Session,68,52,0,20,0,0,76,52,56,0,0,0,0
+159,226,CAT1,2020.0,Term 2,PP2,Faith Adongo,151.0,Pope-Francis Omondi Odhiambo,2013-05-06,Male,In_Session,88,76,0,85,0,0,79,84,88,0,0,0,0
+160,227,CAT1,2020.0,Term 2,PP2,Faith Adongo,192.0,Queen Ann Musengo,2015-11-22,Male,In_Session,98,92,0,100,0,0,79,96,84,0,0,0,0
+161,228,CAT1,2020.0,Term 2,PP2,Faith Adongo,155.0,Regan- Donald Odhiambo,2015-07-27,Male,In_Session,65,60,0,65,0,0,49,76,68,0,0,0,0
+162,343,CAT1,2020.0,Term 2,PP2,Faith Adongo,126.0,Ronney Odhiambo Okore,2013-09-01,Male,In_Session,98,96,0,100,0,0,79,84,100,0,0,0,0
+163,231,CAT1,2020.0,Term 2,PP2,Faith Adongo,114.0,Satrin Carson Otieno,2014-06-09,Male,In_Session,93,92,0,75,0,0,79,84,88,0,0,0,0
+164,232,CAT1,2020.0,Term 2,PP2,Faith Adongo,232.0,Solace Essengo Siage,2014-04-04,Male,In_Session,95,96,0,90,0,0,74,80,88,0,0,0,0
+165,233,CAT1,2020.0,Term 2,PP2,Faith Adongo,223.0,Solomon Bravin Omondi,2014-02-24,Male,In_Session,85,60,0,75,0,0,74,64,96,0,0,0,0
+166,233,CAT1,2020.0,Term 2,PP2,Faith Adongo,223.0,Solomon Bravin Omondi,2014-02-24,Male,In_Session,85,60,0,75,0,0,74,64,96,0,0,0,0
+167,234,CAT1,2020.0,Term 2,PP2,Faith Adongo,101.0,Stella Leonida Atieno Ouma,2014-04-21,Female,In_Session,78,68,0,40,0,0,74,60,56,0,0,0,0
+168,235,CAT1,2020.0,Term 2,PP2,Faith Adongo,146.0,Tamara Talia,,Female,In_Session,93,88,0,100,0,0,79,92,100,0,0,0,0
+169,236,CAT1,2020.0,Term 2,PP2,Faith Adongo,179.0,Timon Ochieng Aduda,2015-03-30,Male,In_Session,93,96,0,100,0,0,79,80,96,0,0,0,0
+170,237,CAT1,2020.0,Term 2,PP2,Faith Adongo,185.0,Tracy Akinyi Ogone,2015-01-11,Female,In_Session,95,88,0,100,0,0,79,84,100,0,0,0,0
+171,238,CAT1,2020.0,Term 2,PP2,Faith Adongo,136.0,Winsley Colleen Odhiambo,2014-07-10,Female,In_Session,85,88,0,90,0,0,74,84,100,0,0,0,0
+172,239,CAT1,2020.0,Term 2,PP2,Faith Adongo,120.0,Wyclife Otieno Dollimore,2015-02-10,Male,In_Session,85,96,0,85,0,0,79,84,80,0,0,0,0
+173,406,CAT1,,,,,,,,,,75,52,0,20,0,0,56,44,76,0,0,0,0
+174,159,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,244.0,Alex Chemberly,2013-11-27,,In_Session,85,69,0,81,0,0,0,0,0,0,0,0,0
+175,160,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,331.0,Angel Atieno,2013-08-02,Female,In_Session,95,84,0,98,0,0,0,0,0,0,0,0,0
+176,163,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,6.0,Brilian Anyango,2012-10-04,Female,In_Session,80,39,0,41,0,0,0,0,0,0,0,0,0
+177,201,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,380.0,Camilah Patient Cherotich,2014-01-01,Female,In_Session,90,86,0,93,0,0,0,0,0,0,0,0,0
+178,323,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,397.0,Charles Agunja,2014-02-10,Male,In_Session,90,74,0,89,0,0,0,0,0,0,0,0,0
+179,164,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,291.0,Charlote Akinyi Odhiambo,,Female,In_Session,85,89,0,89,0,0,0,0,0,0,0,0,0
+180,165,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,211.0,Dalmus Ojwang Odhiambo,2012-12-31,Male,In_Session,95,64,0,55,0,0,0,0,0,0,0,0,0
+181,167,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,217.0,Esther-Philis Atieno Juma,2013-06-29,Female,In_Session,90,79,0,85,0,0,0,0,0,0,0,0,0
+182,169,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,108.0,Fidel Castro Oloo,2010-08-07,Male,In_Session,80,29,0,20,0,0,0,0,0,0,0,0,0
+183,170,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,329.0,Fidel Ochieng' Odhiambo,,Male,In_Session,90,57,0,35,0,0,0,0,0,0,0,0,0
+184,171,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,34.0,Flora Akoth Odhiambo,2013-03-21,Female,In_Session,90,77,0,84,0,0,0,0,0,0,0,0,0
+185,172,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,314.0,Gabriel Edwards Onyango,2013-04-26,Male,In_Session,85,71,0,83,0,0,0,0,0,0,0,0,0
+186,173,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,81.0,Genevive Atieno Okello,2013-08-03,Female,In_Session,85,88,0,92,0,0,0,0,0,0,0,0,0
+187,174,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,326.0,Gerald Otieno Ochieng,2012-11-06,Male,In_Session,75,56,0,78,0,0,0,0,0,0,0,0,0
+188,175,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,270.0,Gloria Adhiambo Ochieng,2012-03-23,Female,In_Session,70,39,0,71,0,0,0,0,0,0,0,0,0
+189,176,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,260.0,Graffins Omondi Otieno,,Male,In_Session,70,24,0,25,0,0,0,0,0,0,0,0,0
+190,177,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,51.0,Habakuk Odhiambo Omondi,2013-05-19,Male,In_Session,95,86,0,83,0,0,0,0,0,0,0,0,0
+191,178,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,29.0,Harriet Awuor Ochieng',2011-08-08,Female,In_Session,80,72,0,64,0,0,0,0,0,0,0,0,0
+192,179,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,74.0,Isacc Omondi Obonyo,2013-05-25,Male,In_Session,70,56,0,71,0,0,0,0,0,0,0,0,0
+193,180,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,82.0,Jackline Akinyi Juma,,Female,In_Session,85,77,0,88,0,0,0,0,0,0,0,0,0
+194,181,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,327.0,Kerina Akinyi,,Female,In_Session,85,80,0,91,0,0,0,0,0,0,0,0,0
+195,182,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,299.0,Luke Braston Ouma,2014-11-19,Male,In_Session,90,89,0,95,0,0,0,0,0,0,0,0,0
+196,183,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,100.0,Martha Tashy Bugi,2014-03-03,Female,In_Session,85,26,0,24,0,0,0,0,0,0,0,0,0
+197,184,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,92.0,Mary Akoth Ojwang',2014-04-06,Female,In_Session,85,87,90,0,0,0,0,0,0,0,0,0,0
+198,185,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,215.0,Maxwell Samson Oboo,,Male,In_Session,85,45,0,69,0,0,0,0,0,0,0,0,0
+199,186,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,32.0,Mercy Zawadi Ojwang,2013-09-28,Female,In_Session,80,81,0,59,0,0,0,0,0,0,0,0,0
+200,187,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,79.0,Meryl Ann Odhiambo,,Female,In_Session,85,81,0,84,0,0,0,0,0,0,0,0,0
+201,188,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,346.0,Mirriam Anyango Egesa,,Female,In_Session,85,38,0,32,0,0,0,0,0,0,0,0,0
+202,189,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,85.0,Natasha Alice Mainya,2013-10-14,Female,In_Session,80,67,0,75,0,0,0,0,0,0,0,0,0
+203,336,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,403.0,Natilie Joy,2013-09-18,Female,In_Session,90,91,0,85,0,0,0,0,0,0,0,0,0
+204,191,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,27.0,Paul Onyango,,Male,In_Session,85,85,0,92,0,0,0,0,0,0,0,0,0
+205,192,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,207.0,Praise Daniel Omondi,2013-03-25,Male,In_Session,100,63,0,71,0,0,0,0,0,0,0,0,0
+207,194,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,344.0,Prinsky Angel Willis,2013-06-26,Female,In_Session,90,71,0,70,0,0,0,0,0,0,0,0,0
+208,195,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,48.0,Rodney Tillen Otieno,2012-07-29,Male,In_Session,85,83,0,92,0,0,0,0,0,0,0,0,0
+209,377,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,426.0,Ryan Ochieng,2014-06-08,Male,In_Session,95,0,74,78,0,0,0,0,0,0,0,0,0
+210,196,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,167.0,Ryza Awino Omondi,2013-03-30,Female,In_Session,80,74,0,84,0,0,0,0,0,0,0,0,0
+211,364,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,418.0,Samuel Absalom Ongeso Odhiambo,2012-02-12,Male,In_Session,0,39,0,0,0,0,0,0,0,0,0,0,0
+212,197,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,176.0,Sara Awino Awuor,,Female,In_Session,95,45,0,31,0,0,0,0,0,0,0,0,0
+213,350,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,415.0,Solomon Ochieng Odhiambo,2013-01-11,Male,In_Session,85,39,0,69,0,0,0,0,0,0,0,0,0
+214,199,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,68.0,Stephany Precious Omondi,2013-07-07,Female,In_Session,75,30,0,36,0,0,0,0,0,0,0,0,0
+215,200,CAT1,2020.0,Term 2,Grade1,Quinter Otieno,87.0,Whytney Anyango Otieno,2013-12-18,Female,In_Session,80,84,0,87,0,0,0,0,0,0,0,0,0
+216,127,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,202.0,Alian Vukhame Mwita,2013-03-12,Female,In_Session,60,81,0,81,0,0,0,0,0,0,0,0,0
+217,356,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,412.0,Arshley Barca Odote,2012-09-30,Female,In_Session,90,94,0,85,0,0,0,0,0,0,0,0,0
+218,129,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,289.0,Bistine Ramender Okoth,2012-04-19,Female,In_Session,55,0,0,0,0,0,0,0,0,0,0,0,0
+219,361,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,110.0,Bonface Amisi Miruka,2013-04-17,Male,In_Session,55,49,0,65,0,0,0,0,0,0,0,0,0
+220,130,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,238.0,Bravin Odhiambo,2011-05-27,Female,In_Session,35,79,0,77,0,0,0,0,0,0,0,0,0
+221,131,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,290.0,Bridgit Rebbeca Okoth,2012-04-19,Female,In_Session,70,92,0,89,0,0,0,0,0,0,0,0,0
+222,132,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,255.0,Byron John Onyango,2012-01-01,Male,In_Session,60,0,0,0,0,0,0,0,0,0,0,0,0
+223,348,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,72.0,Edgar Otieno Olal,2012-11-24,Male,In_Session,80,95,0,89,0,0,0,0,0,0,0,0,0
+224,133,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,341.0,Elton Otieno Omondi,2012-01-02,Male,In_Session,75,70,0,70,0,0,0,0,0,0,0,0,0
+225,134,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,253.0,Elvis Michael Nyagol,2013-01-10,Male,In_Session,35,78,0,72,0,0,0,0,0,0,0,0,0
+226,349,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,26.0,Gregory Castor,2012-01-28,Male,In_Session,45,68,0,84,0,0,0,0,0,0,0,0,0
+227,136,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,225.0,Hillary Ignatius Odhiambo,2012-08-31,Male,In_Session,80,95,0,90,0,0,0,0,0,0,0,0,0
+228,137,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,377.0,Isaac Omondi Onyango,2012-12-10,Male,In_Session,40,67,0,74,0,0,0,0,0,0,0,0,0
+229,138,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,188.0,Jasper Savelle Otieno,2015-06-08,Male,In_Session,90,94,0,85,0,0,0,0,0,0,0,0,0
+230,139,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,271.0,Jef Okech Odiyo,2011-11-11,Male,In_Session,45,66,0,73,0,0,0,0,0,0,0,0,0
+231,140,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,315.0,Joel Imani Odhiambo,2012-10-15,Male,In_Session,80,98,0,86,0,0,0,0,0,0,0,0,0
+232,142,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,247.0,Keila Babra Jowi,2013-03-30,Female,In_Session,60,88,0,84,0,0,0,0,0,0,0,0,0
+233,143,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,111.0,Kimberly Amilia Juma,2012-08-28,Female,In_Session,35,49,0,33,0,0,0,0,0,0,0,0,0
+234,145,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,1.0,Michael Gift Otieno,2013-06-22,Female,In_Session,85,91,0,81,0,0,0,0,0,0,0,0,0
+235,146,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,5.0,Michael Odhiambo Awuor,2009-11-05,Male,In_Session,35,34,0,6,0,0,0,0,0,0,0,0,0
+236,147,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,11.0,Mishael Michael Ochieng,2011-06-20,Male,In_Session,55,56,0,72,0,0,0,0,0,0,0,0,0
+237,148,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,227.0,Randy Martins Jombo,2012-08-31,Male,In_Session,85,95,0,90,0,0,0,0,0,0,0,0,0
+238,149,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,7.0,Regan Ochieng Odhiambo,2012-02-02,Female,In_Session,45,83,0,72,0,0,0,0,0,0,0,0,0
+239,158,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,15.0,Rosmary Atieno Omondi,2012-12-14,Female,In_Session,50,91,0,80,0,0,0,0,0,0,0,0,0
+240,150,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,183.0,Ryan Sande Ochieng,2011-01-09,Male,In_Session,55,51,0,15,0,0,0,0,0,0,0,0,0
+241,151,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,308.0,Sachyl Blessed Oweya,2012-12-26,Female,In_Session,75,94,0,90,0,0,0,0,0,0,0,0,0
+242,152,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,153.0,Shalquine Atieno Auka,2012-02-28,Female,In_Session,90,98,0,92,0,0,0,0,0,0,0,0,0
+243,153,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,165.0,Sheryl Atieno Odhiambo,,Female,In_Session,65,87,0,80,0,0,0,0,0,0,0,0,0
+244,154,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,144.0,Sylvester Rao Ochieng',2012-10-31,Male,In_Session,75,95,0,80,0,0,0,0,0,0,0,0,0
+245,155,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,2.0,Tashy Vivian Mboya,2012-08-28,Female,In_Session,75,89,0,72,0,0,0,0,0,0,0,0,0
+246,156,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,262.0,Victoria Chavuremu Muyesu,2012-08-11,Female,In_Session,85,93,0,87,0,0,0,0,0,0,0,0,0
+247,157,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,23.0,Victoria Gweth Abira,2013-05-18,Female,In_Session,80,95,0,85,0,0,0,0,0,0,0,0,0
+248,355,CAT1,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,411.0,Wicofred Wilkince Odote,2012-09-30,Male,In_Session,80,96,0,86,0,0,0,0,0,0,0,0,0
+249,92,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,322.0,Abel Onuong'a Obwoge,2011-08-08,Male,In_Session,80,37,48,28,50,0,0,0,0,0,0,0,0
+250,93,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,277.0,Anne Akinyi Onasis,2019-07-07,Female,In_Session,50,23,38,20,50,0,0,0,0,0,0,0,0
+251,94,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,378.0,Bernard Odhiambo Okello,2010-12-25,Male,In_Session,50,24,38,18,50,0,0,0,0,0,0,0,0
+252,95,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,135.0,Brigton Otieno Bala,2011-12-11,Male,In_Session,67,40,49,26,50,0,0,0,0,0,0,0,0
+253,96,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,140.0,Cedrick Masitsa Mulupi,2012-02-14,Female,In_Session,60,36,46,31,50,0,0,0,0,0,0,0,0
+254,97,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,173.0,Clinton Onyango,2011-03-30,Male,In_Session,60,34,50,26,50,0,0,0,0,0,0,0,0
+255,97,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,173.0,Clinton Onyango,2011-03-30,Male,In_Session,60,34,50,26,50,0,0,0,0,0,0,0,0
+256,98,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,166.0,Cris Otieno Omondi,2011-06-19,Male,In_Session,63,33,50,33,50,0,0,0,0,0,0,0,0
+257,99,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,338.0,David Otieno Agutu,2011-01-29,Male,In_Session,93,30,50,29,50,0,0,0,0,0,0,0,0
+258,100,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,122.0,Faith Akinyi Aguya,2011-09-02,Female,In_Session,83,40,49,38,50,0,0,0,0,0,0,0,0
+259,101,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,134.0,Femmy Awuor Juma,2011-06-01,Female,In_Session,77,37,46,33,50,0,0,0,0,0,0,0,0
+260,102,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,104.0,Frankline Ochieng' Odhiambo,2010-05-13,Male,In_Session,30,10,10,6,10,0,0,0,0,0,0,0,0
+261,103,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,287.0,Gabriel Ebeneza,2013-06-08,Female,In_Session,20,17,20,18,48,0,0,0,0,0,0,0,0
+262,106,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,13.0,Happy Joy Otieno,2015-04-16,Female,In_Session,43,23,34,21,50,0,0,0,0,0,0,0,0
+263,107,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,245.0,Hillary Clinton Agallo,2010-11-25,Male,In_Session,60,34,48,25,50,0,0,0,0,0,0,0,0
+264,109,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,125.0,Laura Vivian Aluoch Obora,2011-08-01,Female,In_Session,87,44,48,39,50,0,0,0,0,0,0,0,0
+265,110,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,221.0,Lin Ochieng Ogosy,,Male,In_Session,40,21,27,9,40,0,0,0,0,0,0,0,0
+266,112,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,201.0,Maayan chacha Mwita,,Male,In_Session,20,17,15,19,49,0,0,0,0,0,0,0,0
+267,113,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,131.0,Mary Adhiambio Owira,,Female,In_Session,67,33,47,29,50,0,0,0,0,0,0,0,0
+268,114,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,292.0,Mary Atieno Oduor,2010-12-24,Female,In_Session,63,31,45,26,50,0,0,0,0,0,0,0,0
+269,325,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,396.0,Mathew Omondi,2020-01-01,Male,In_Session,53,33,45,35,50,0,0,0,0,0,0,0,0
+270,115,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,231.0,Maxwel Otieno Ogweno,2012-08-14,Male,In_Session,70,27,46,21,50,0,0,0,0,0,0,0,0
+271,116,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,105.0,Mellonie Awuor Odiambo,2012-06-12,Female,In_Session,27,30,35,9,50,0,0,0,0,0,0,0,0
+272,365,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,76.0,Moses Jack Odhiambo Oyoo,2010-05-25,Male,In_Session,36,19,32,24,49,0,0,0,0,0,0,0,0
+273,117,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,121.0,Richard Nginga Ingooti,2011-10-06,Male,In_Session,87,39,49,39,50,0,0,0,0,0,0,0,0
+274,118,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,343.0,Ricky Rolex Otieno,2012-08-05,Male,In_Session,57,40,50,33,50,0,0,0,0,0,0,0,0
+275,119,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,47.0,Samwel Odhiambo Ouma,2010-08-22,Male,In_Session,67,23,47,29,50,0,0,0,0,0,0,0,0
+276,120,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,324.0,Steven Kylemax Otieno,2012-05-05,Male,In_Session,47,31,48,30,50,0,0,0,0,0,0,0,0
+277,121,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,127.0,Timon Kisera Ochieng,2012-01-02,Male,In_Session,47,36,41,15,49,0,0,0,0,0,0,0,0
+278,123,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,328.0,Vallary Anjela Atieno,2011-12-22,Female,In_Session,57,30,48,25,50,0,0,0,0,0,0,0,0
+279,124,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,143.0,Vicky Ashley Ogola,2011-01-04,Female,In_Session,70,37,49,34,50,0,0,0,0,0,0,0,0
+280,125,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,115.0,Victoria Adhiambo Sadia,2012-06-11,Female,In_Session,33,34,50,21,50,0,0,0,0,0,0,0,0
+281,126,CAT1,2020.0,Term 2,Grade3,Vivian Akinyi Langi,129.0,Wellington Ondu Odhiambo,,Male,In_Session,53,33,44,21,50,0,0,0,0,0,0,0,0
+282,202,Exams,2020.0,Term 2,PP2,Faith Adongo,288.0,Abigael Ira Ochieng,2015-01-21,Female,In_Session,100,82,0,90,0,0,68,84,80,0,0,0,0
+283,203,Exams,2020.0,Term 2,PP2,Faith Adongo,103.0,Accllytte Loves Okun,2014-12-31,Female,In_Session,96,82,0,95,0,0,76,88,92,0,0,0,0
+284,205,Exams,2020.0,Term 2,PP2,Faith Adongo,162.0,Aloyce Akello Nyambok,2014-08-12,Male,In_Session,100,80,0,80,0,0,52,76,84,0,0,0,0
+285,207,Exams,2020.0,Term 2,PP2,Faith Adongo,150.0,Ayub Ochieng Odhiambo,2013-03-20,Male,In_Session,72,78,0,90,0,0,48,88,92,0,0,0,0
+286,209,Exams,2020.0,Term 2,PP2,Faith Adongo,358.0,Brigton Ochieng' Ouma,2010-08-10,Male,In_Session,96,58,0,80,0,0,68,40,76,0,0,0,0
+287,206,Exams,2020.0,Term 2,PP2,Faith Adongo,128.0,Alpha-Peter Olwalo Ochieng,2015-01-03,Male,In_Session,96,80,0,70,0,0,36,64,72,0,0,0,0
+288,210,Exams,2020.0,Term 2,PP2,Faith Adongo,154.0,Byron Jerry Onyango Ooko,2013-09-08,Male,In_Session,96,72,0,85,0,0,76,88,88,0,0,0,0
+289,212,Exams,2020.0,Term 2,PP2,Faith Adongo,133.0,Firmy Natasha Onyango,2014-10-31,Female,In_Session,100,94,0,95,0,0,72,88,84,0,0,0,0
+290,213,Exams,2020.0,Term 2,PP2,Faith Adongo,214.0,Gerald James Oboo,,,In_Session,92,90,0,80,0,0,60,80,88,0,0,0,0
+291,214,Exams,2020.0,Term 2,PP2,Faith Adongo,138.0,Hannipher Bahati Okal,2015-02-12,Female,In_Session,96,100,0,100,0,0,88,92,92,0,0,0,0
+292,215,Exams,2020.0,Term 2,PP2,Faith Adongo,261.0,Jane Akumu Alango,2019-01-14,Female,In_Session,80,70,0,95,0,0,68,84,64,0,0,0,0
+293,216,Exams,2020.0,Term 2,PP2,Faith Adongo,187.0,Jayden George Otieno,,Male,In_Session,96,72,0,80,0,0,64,84,84,0,0,0,0
+294,217,Exams,2020.0,Term 2,PP2,Faith Adongo,124.0,Jean Edna Wanyama,2014-06-24,Female,In_Session,100,84,0,95,0,0,76,72,84,0,0,0,0
+295,218,Exams,2020.0,Term 2,PP2,Faith Adongo,316.0,Joan Hawi Odhiambo,2014-10-11,Female,In_Session,100,100,0,95,0,0,84,92,92,0,0,0,0
+296,219,Exams,2020.0,Term 2,PP2,Faith Adongo,141.0,Johnson Ouma Otieno,2014-07-22,Male,In_Session,100,86,0,90,0,0,56,84,92,0,0,0,0
+297,221,Exams,2020.0,Term 2,PP2,Faith Adongo,60.0,Juliet Atieno Otieno,,Female,In_Session,28,36,0,80,0,0,68,64,76,0,0,0,0
+298,222,Exams,2020.0,Term 2,PP2,Faith Adongo,178.0,Maggy Victoline Otieno,,Female,In_Session,84,62,0,70,0,0,84,60,68,0,0,0,0
+299,223,Exams,2020.0,Term 2,PP2,Faith Adongo,350.0,Marvel Achieng' Okoth,2014-10-14,Female,In_Session,88,84,0,85,0,0,60,68,80,0,0,0,0
+300,224,Exams,2020.0,Term 2,PP2,Faith Adongo,117.0,Merliah Anyango Auma,2017-08-06,Female,In_Session,92,88,0,90,0,0,68,40,62,0,0,0,0
+301,225,Exams,2020.0,Term 2,PP2,Faith Adongo,142.0,Miracle Kaila Juma,2014-12-16,Female,In_Session,96,66,0,90,0,0,80,60,80,0,0,0,0
+302,226,Exams,2020.0,Term 2,PP2,Faith Adongo,151.0,Pope-Francis Omondi Odhiambo,2013-05-06,Male,In_Session,100,72,0,90,0,0,80,84,76,0,0,0,0
+303,227,Exams,2020.0,Term 2,PP2,Faith Adongo,192.0,Queen Ann Musengo,2015-11-22,Male,In_Session,100,78,0,100,0,0,72,96,92,0,0,0,0
+304,228,Exams,2020.0,Term 2,PP2,Faith Adongo,155.0,Regan- Donald Odhiambo,2015-07-27,Male,In_Session,48,58,0,60,0,0,32,64,68,0,0,0,0
+305,231,Exams,2020.0,Term 2,PP2,Faith Adongo,114.0,Satrin Carson Otieno,2014-06-09,Male,In_Session,100,84,0,95,0,0,68,92,88,0,0,0,0
+306,233,Exams,2020.0,Term 2,PP2,Faith Adongo,223.0,Solomon Bravin Omondi,2014-02-24,Male,In_Session,96,58,0,90,0,0,64,84,84,0,0,0,0
+307,235,Exams,2020.0,Term 2,PP2,Faith Adongo,146.0,Tamara Talia,,Female,In_Session,76,76,0,90,0,0,68,52,80,0,0,0,0
+308,235,Exams,2020.0,Term 2,PP2,Faith Adongo,146.0,Tamara Talia,,Female,In_Session,100,92,0,85,0,0,72,92,80,0,0,0,0
+309,236,Exams,2020.0,Term 2,PP2,Faith Adongo,179.0,Timon Ochieng Aduda,2015-03-30,Male,In_Session,100,100,0,90,0,0,84,80,96,0,0,0,0
+310,237,Exams,2020.0,Term 2,PP2,Faith Adongo,185.0,Tracy Akinyi Ogone,2015-01-11,Female,In_Session,96,96,0,90,0,0,84,92,92,0,0,0,0
+311,239,Exams,2020.0,Term 2,PP2,Faith Adongo,120.0,Wyclife Otieno Dollimore,2015-02-10,Male,In_Session,100,82,0,80,0,0,44,56,84,0,0,0,0
+312,238,Exams,2020.0,Term 2,PP2,Faith Adongo,136.0,Winsley Colleen Odhiambo,2014-07-10,Female,In_Session,92,86,0,90,0,0,72,92,88,0,0,0,0
+313,315,Exams,2020.0,Term 2,PP2,Faith Adongo,383.0,Adrian Isaiah Sumari,2015-06-13,Male,In_Session,92,94,0,80,0,0,68,80,80,0,0,0,0
+314,314,Exams,2020.0,Term 2,PP2,Faith Adongo,382.0,Felix Otieno Okiri,2021-01-01,Male,In_Session,96,74,0,90,0,0,64,92,80,0,0,0,0
+315,343,Exams,2020.0,Term 2,PP2,Faith Adongo,126.0,Ronney Odhiambo Okore,2013-09-01,Male,In_Session,96,98,0,95,0,0,80,96,88,0,0,0,0
+316,328,Exams,2020.0,Term 2,PP2,Faith Adongo,392.0,Loviance Candy,2015-05-08,Female,In_Session,92,81,0,90,0,0,76,80,88,0,0,0,0
+317,353,Exams,2020.0,Term 2,PP2,Faith Adongo,409.0,Mitchel Adhiambo,2014-04-11,Female,In_Session,100,100,0,90,0,0,88,88,92,0,0,0,0
+318,357,Exams,2020.0,Term 2,PP2,Faith Adongo,413.0,Malika Helda Adhiambo,2015-06-11,Female,In_Session,84,84,0,90,0,0,68,76,92,0,0,0,0
+319,388,Exams,2020.0,Term 2,PP2,Faith Adongo,421.0,Byron Allan Samba,2014-09-12,Male,In_Session,96,64,0,85,0,0,68,76,72,0,0,0,0
+320,232,Exams,2020.0,Term 2,PP2,Faith Adongo,232.0,Solace Essengo Siage,2014-04-04,Male,In_Session,96,88,0,85,0,0,76,92,92,0,0,0,0
+321,375,Exams,2020.0,Term 2,PP2,Faith Adongo,424.0,Naomi Adhiambo Odam,2000-01-08,Female,In_Session,72,58,0,0,0,0,0,0,0,0,0,0,0
+322,208,Exams,,,,,,,,,,72,58,0,85,0,0,88,64,56,0,0,0,0
+323,261,Exams,2020.0,Term 2,PP1,Jacynter Akoth,276.0,Purity Atieno Otieno,2014-09-03,Female,In_Session,100,100,0,0,0,0,97,100,100,0,0,0,0
+324,250,Exams,2020.0,Term 2,PP1,Jacynter Akoth,259.0,Isaac Brandy Ndale,2015-04-21,Male,In_Session,100,100,0,0,0,0,93,100,93,0,0,0,0
+325,266,Exams,2020.0,Term 2,PP1,Jacynter Akoth,285.0,Sharlet Kimberly Odede,2016-03-30,Female,In_Session,100,99,0,0,0,0,94,96,97,0,0,0,0
+326,244,Exams,2020.0,Term 2,PP1,Jacynter Akoth,228.0,Crispine Enock Mutai,2015-02-27,Male,In_Session,100,100,0,0,0,0,96,100,100,0,0,0,0
+329,243,Exams,2020.0,Term 2,PP1,Jacynter Akoth,258.0,Collins Onyango Omondi,2014-09-15,Male,In_Session,96,94,0,0,0,0,96,100,99,0,0,0,0
+331,258,Exams,2020.0,Term 2,PP1,Jacynter Akoth,235.0,Olivia Awuor Sadia,2015-09-16,Female,In_Session,100,100,0,0,0,0,96,100,100,0,0,0,0
+332,326,Exams,2020.0,Term 2,PP1,Jacynter Akoth,394.0,Euphemiah Akinyi,2015-08-27,Female,In_Session,100,99,0,0,0,0,96,100,100,0,0,0,0
+333,255,Exams,2020.0,Term 2,PP1,Jacynter Akoth,194.0,Mary Wendy Omondi,2016-03-19,Female,In_Session,96,100,0,0,0,0,96,92,88,0,0,0,0
+334,390,Exams,2020.0,Term 2,PP1,Jacynter Akoth,250.0,Ashley Sharneez Joy Omondi,2016-08-16,Female,In_Session,100,100,0,0,0,0,88,96,97,0,0,0,0
+335,379,Exams,2020.0,Term 2,PP1,Jacynter Akoth,323.0,Javan Japheth Obwoge,2015-08-08,Male,In_Session,88,99,0,0,0,0,82,96,98,0,0,0,0
+336,254,Exams,2020.0,Term 2,PP1,Jacynter Akoth,360.0,Joy Vera Ayoo,2015-05-19,Female,In_Session,94,96,0,0,0,0,95,95,97,0,0,0,0
+337,248,Exams,2020.0,Term 2,PP1,Jacynter Akoth,353.0,Frida Joy Chieng',2016-01-19,Female,In_Session,100,97,0,0,0,0,98,100,99,0,0,0,0
+338,242,Exams,2020.0,Term 2,PP1,Jacynter Akoth,268.0,Brian Nicholas,2015-05-19,Male,In_Session,98,98,0,0,0,0,95,96,97,0,0,0,0
+339,252,Exams,2020.0,Term 2,PP1,Jacynter Akoth,363.0,Jayden Smith Okeyo,2016-05-16,Male,In_Session,98,95,0,0,0,0,87,94,98,0,0,0,0
+340,241,Exams,2020.0,Term 2,PP1,Jacynter Akoth,246.0,Bless Hellen Odiwuor,2016-05-21,Female,In_Session,100,98,0,0,0,0,82,98,96,0,0,0,0
+341,333,Exams,2020.0,Term 2,PP1,Jacynter Akoth,388.0,Princes Tamara,2016-01-22,Female,In_Session,100,94,0,0,0,0,87,80,94,0,0,0,0
+342,257,Exams,2020.0,Term 2,PP1,Jacynter Akoth,254.0,Olivia Akinyi Odhiambo,,Female,In_Session,96,98,0,0,0,0,96,94,86,0,0,0,0
+343,381,Exams,2020.0,Term 2,PP1,Jacynter Akoth,428.0,Caesy Ngure,2015-03-26,Male,In_Session,100,100,0,0,0,0,94,84,90,0,0,0,0
+344,253,Exams,2020.0,Term 2,PP1,Jacynter Akoth,230.0,Jeremy Walter Odhiambo,2015-04-02,Male,In_Session,100,98,0,0,0,0,88,97,93,0,0,0,0
+345,259,Exams,2020.0,Term 2,PP1,Jacynter Akoth,305.0,Peter Pokoit Simiyu,2014-05-10,Male,In_Session,100,80,0,0,0,0,92,96,92,0,0,0,0
+346,247,Exams,2020.0,Term 2,PP1,Jacynter Akoth,337.0,Fredrick Ochieng' Odhiambo,2014-10-02,Male,In_Session,84,93,0,0,0,0,86,70,82,0,0,0,0
+347,268,Exams,2020.0,Term 2,PP1,Jacynter Akoth,354.0,Walter Gift Ochieng',2016-01-16,Male,In_Session,100,93,0,0,0,0,82,88,92,0,0,0,0
+348,270,Exams,2020.0,Term 2,PP1,Jacynter Akoth,229.0,Yeffel Schuller Otieno,2015-12-06,Male,In_Session,96,99,0,0,0,0,94,76,93,0,0,0,0
+349,262,Exams,2020.0,Term 2,PP1,Jacynter Akoth,224.0,Rose Malaika Anyango,2015-12-29,Female,In_Session,100,89,0,0,0,0,80,96,76,0,0,0,0
+350,341,Exams,2020.0,Term 2,PP1,Jacynter Akoth,242.0,Grace Joy,2016-02-19,Female,In_Session,92,92,0,0,0,0,94,92,100,0,0,0,0
+351,240,Exams,2020.0,Term 2,PP1,Jacynter Akoth,175.0,Arriana Joseph,,Female,In_Session,94,98,0,0,0,0,92,96,96,0,0,0,0
+352,407,Exams,2020.0,Term 2,PP1,Jacynter Akoth,243.0,Precious Tamara Otieno,2015-01-12,Female,In_Session,92,99,0,0,0,0,80,82,88,0,0,0,0
+353,267,Exams,2020.0,Term 2,PP1,Jacynter Akoth,248.0,Tom Omollo Jowi,2015-09-15,Male,In_Session,88,93,0,0,0,0,76,98,84,0,0,0,0
+354,400,Exams,2020.0,Term 2,PP1,Jacynter Akoth,274.0,John Mwereza,2015-06-30,Male,In_Session,98,90,0,0,0,0,84,92,86,0,0,0,0
+355,366,Exams,2020.0,Term 2,PP1,Jacynter Akoth,419.0,Brighton Omondi Odiwuor,1111-01-11,Male,In_Session,94,90,0,0,0,0,88,92,88,0,0,0,0
+356,322,Exams,2020.0,Term 2,PP1,Jacynter Akoth,398.0,Patient Nadia,2020-01-01,Female,In_Session,92,92,0,0,0,0,78,80,87,0,0,0,0
+357,331,Exams,2020.0,Term 2,PP1,Jacynter Akoth,389.0,Tracy Tiffany Ochieng,2015-02-23,Female,In_Session,96,95,0,0,0,0,76,86,97,0,0,0,0
+358,359,Exams,2020.0,Term 2,PP1,Jacynter Akoth,408.0,Pharell Tumaini Omondi,2015-04-11,Male,In_Session,90,95,0,0,0,0,88,94,86,0,0,0,0
+359,376,Exams,2020.0,Term 2,PP1,Jacynter Akoth,425.0,Hilda Akinyi,2016-10-16,Female,In_Session,88,95,0,0,0,0,76,89,86,0,0,0,0
+360,399,Exams,,,,,,,,,,96,95,0,0,0,0,89,95,90,0,0,0,0
+361,389,Exams,2020.0,Term 2,PP1,Jacynter Akoth,420.0,Braxton Adams Samba,2016-01-27,Male,In_Session,98,91,0,0,0,0,96,98,98,0,0,0,0
+362,330,Exams,2020.0,Term 2,PP1,Jacynter Akoth,390.0,Dlamini Musumu Ooko,2015-07-28,Female,In_Session,86,89,0,0,0,0,86,86,76,0,0,0,0
+363,269,Exams,2020.0,Term 2,PP1,Jacynter Akoth,193.0,Williams Akoth Omondi,2015-11-22,Male,In_Session,82,90,0,0,0,0,76,0,80,0,0,0,0
+364,382,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,429.0,Josephine Ivy Olal,1111-11-11,Female,In_Session,64,76,0,0,0,0,75,60,63,0,0,0,0
+365,288,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,339.0,John Oliech Nyambok,2016-08-11,Male,In_Session,70,80,0,0,0,0,74,80,75,0,0,0,0
+366,324,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,395.0,David  Kariuki,2017-04-14,Male,In_Session,70,89,0,0,0,0,79,80,61,0,0,0,0
+367,272,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,307.0,Benard Odhiambo,,Male,In_Session,74,83,0,0,0,0,86,60,72,0,0,0,0
+368,286,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,335.0,Jaydendavid Favour Juma,2017-05-06,Male,In_Session,72,82,0,0,0,0,78,90,69,0,0,0,0
+369,294,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,364.0,Marlin Kipchumba Rono,2015-07-19,Male,In_Session,83,88,0,0,0,0,85,60,87,0,0,0,0
+370,362,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,416.0,Christian Joel,2017-02-04,Male,In_Session,68,81,0,0,0,0,75,100,62,0,0,0,0
+371,289,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,330.0,Jasmine Bright,2016-12-15,Female,In_Session,76,87,0,0,0,0,75,80,67,0,0,0,0
+372,313,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,381.0,Shana Mary Ochieng,2015-12-23,Female,In_Session,88,92,0,0,0,0,95,80,90,0,0,0,0
+373,317,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,385.0,Jaiden Allan Ogosy,2017-07-24,Male,In_Session,57,78,0,0,0,0,70,60,50,0,0,0,0
+374,408,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,438.0,John Sadfa Ademba,1111-11-11,Male,In_Session,61,65,0,0,0,0,55,100,63,0,0,0,0
+375,380,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,427.0,Bellary David Onyango,2016-02-06,Male,In_Session,82,95,0,0,0,0,90,100,88,0,0,0,0
+376,299,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,273.0,Nivaldoh Johnes,,Male,In_Session,74,94,0,0,0,0,76,100,80,0,0,0,0
+377,280,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,310.0,Fidel Mboo Otieno,2016-07-02,Male,In_Session,75,94,0,0,0,0,92,100,80,0,0,0,0
+378,275,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,355.0,Daniel Mainya Obor,2016-09-22,Male,In_Session,76,94,0,0,0,0,79,100,71,0,0,0,0
+379,329,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,391.0,Glory Asenath Achieng,2016-11-12,Female,In_Session,82,89,0,0,0,0,75,85,76,0,0,0,0
+380,290,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,373.0,Kyla Gumba Onyango,,,In_Session,79,87,0,0,0,0,85,100,80,0,0,0,0
+381,276,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,302.0,Daniela Mary Egessa,2016-12-27,Female,In_Session,72,87,0,0,0,0,75,80,68,0,0,0,0
+382,310,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,371.0,Yvonne Achieng' Okech,2016-11-04,Female,In_Session,73,85,0,0,0,0,75,60,70,0,0,0,0
+383,383,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,359.0,Samuel Emmanuel Onuong'a,2016-08-25,Male,In_Session,75,86,0,0,0,0,78,60,76,0,0,0,0
+384,300,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,336.0,Paul Check Odhiambo,2016-11-28,Male,In_Session,71,81,0,0,0,0,73,60,75,0,0,0,0
+385,295,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,342.0,Marvel Junior Otieno,2018-08-19,Male,In_Session,82,88,0,0,0,0,75,60,77,0,0,0,0
+386,293,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,309.0,Levi Kiptoo Mosop,2016-10-08,Male,In_Session,67,85,0,0,0,0,65,100,70,0,0,0,0
+387,271,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,317.0,Allan Derick Omondi,2016-06-11,Male,In_Session,82,95,0,0,0,0,88,60,83,0,0,0,0
+388,309,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,267.0,Tracey Nicole,2016-08-17,Female,In_Session,78,87,0,0,0,0,83,100,70,0,0,0,0
+389,297,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,352.0,Mary Shantel,2016-08-05,Female,In_Session,77,83,0,0,0,0,80,60,75,0,0,0,0
+390,296,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,311.0,Marvellous Mercy,,,In_Session,79,90,0,0,0,0,80,80,75,0,0,0,0
+391,287,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,334.0,Jenipher Wanjala Wafula,2015-10-19,Female,In_Session,85,95,0,0,0,0,86,100,87,0,0,0,0
+392,304,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,369.0,Shally Brandy Kariuki,2018-01-18,Female,In_Session,68,84,0,0,0,0,79,100,75,0,0,0,0
+393,403,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,283.0,Favour Eliezer Ojwang,2016-05-21,Male,In_Session,73,86,0,0,0,0,78,100,75,0,0,0,0
+394,354,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,410.0,Ann Purity Adhiambo,1111-01-01,Female,In_Session,73,84,0,0,0,0,78,80,80,0,0,0,0
+395,335,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,400.0,Hadassah Gloria Zephania,2017-07-13,Female,In_Session,63,71,0,0,0,0,75,100,65,0,0,0,0
+396,346,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,407.0,Gloria Achieng,2017-06-06,Female,In_Session,69,84,0,0,0,0,80,100,72,0,0,0,0
+397,393,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,379.0,Leonidah Daizy Awino,,Female,In_Session,78,90,0,0,0,0,86,80,75,0,0,0,0
+398,284,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,368.0,Jackline Atieno Opiyo,,Female,In_Session,87,76,0,0,0,0,93,100,92,0,0,0,0
+399,352,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,414.0,Easther Awino Odhiambo,2017-07-11,Female,In_Session,81,84,0,0,0,0,85,80,85,0,0,0,0
+400,395,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,436.0,Viola Adhiambo Odhiambo,2017-03-21,Female,In_Session,86,84,0,0,0,0,73,60,75,0,0,0,0
+401,373,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,422.0,Wendy Roseline,1111-11-11,Female,In_Session,73,83,0,0,0,0,70,80,70,0,0,0,0
+402,321,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,399.0,Max Iden Omondi,2017-05-07,Male,In_Session,87,83,0,0,0,0,73,60,68,0,0,0,0
+403,387,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,432.0,Bryden MartJunior Mwenda,2016-07-24,Male,In_Session,75,85,0,0,0,0,80,100,73,0,0,0,0
+404,282,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,375.0,Harriet Atieno Oloo,2016-06-12,Female,In_Session,70,88,0,0,0,0,76,60,68,0,0,0,0
+405,291,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,374.0,Laura Awino Omollo,,Female,In_Session,78,94,0,0,0,0,83,100,88,0,0,0,0
+406,279,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,345.0,Faith Nanjala Odhiambo,2014-01-04,Female,In_Session,85,95,0,0,0,0,90,80,87,0,0,0,0
+407,339,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,404.0,Auldrey Blessing Otieno,2016-01-01,Female,In_Session,85,95,0,0,0,0,80,100,87,0,0,0,0
+408,281,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,272.0,Gloria Penina Odiyo,2016-03-27,Female,In_Session,86,88,0,0,0,0,84,60,90,0,0,0,0
+409,391,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,434.0,Aden Norlan Odhiambo,2017-07-17,Male,In_Session,66,80,0,0,0,0,70,100,65,0,0,0,0
+410,360,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,406.0,Erica Night Kooyo,2017-07-17,Female,In_Session,55,65,0,0,0,0,70,100,60,0,0,0,0
+411,301,Exams,2020.0,Term 2,Baby,Josephine Anyango Opon,257.0,Purity Carol Otieno,2017-04-13,Female,In_Session,94,92,0,0,0,0,87,100,88,0,0,0,0
+413,117,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,121.0,Richard Nginga Ingooti,2011-10-06,Male,In_Session,84,94,0,84,0,93,85,100,87,0,0,0,0
+414,97,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,173.0,Clinton Onyango,2011-03-30,Male,In_Session,82,92,0,88,0,93,80,90,73,0,0,0,0
+415,109,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,125.0,Laura Vivian Aluoch Obora,2011-08-01,Female,In_Session,90,90,0,86,0,87,85,70,87,0,0,0,0
+416,100,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,122.0,Faith Akinyi Aguya,2011-09-02,Female,In_Session,80,86,0,82,0,67,90,60,86,0,0,0,0
+417,125,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,115.0,Victoria Adhiambo Sadia,2012-06-11,Female,In_Session,40,82,0,78,0,67,65,70,60,0,0,0,0
+418,101,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,134.0,Femmy Awuor Juma,2011-06-01,Female,In_Session,82,80,0,80,0,93,85,80,60,0,0,0,0
+419,113,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,131.0,Mary Adhiambio Owira,,Female,In_Session,70,80,0,68,0,93,70,50,73,0,0,0,0
+420,107,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,245.0,Hillary Clinton Agallo,2010-11-25,Male,In_Session,70,80,0,84,0,93,70,70,60,0,0,0,0
+421,123,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,328.0,Vallary Anjela Atieno,2011-12-22,Female,In_Session,64,80,0,64,0,67,65,60,73,0,0,0,0
+422,325,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,396.0,Mathew Omondi,2020-01-01,Male,In_Session,54,78,0,80,0,93,75,80,80,0,0,0,0
+423,96,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,140.0,Cedrick Masitsa Mulupi,2012-02-14,Female,In_Session,66,76,0,76,0,93,65,50,87,0,0,0,0
+424,124,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,143.0,Vicky Ashley Ogola,2011-01-04,Female,In_Session,80,74,0,66,0,100,60,90,93,0,0,0,0
+425,121,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,127.0,Timon Kisera Ochieng,2012-01-02,Male,In_Session,68,72,0,62,0,73,40,80,47,0,0,0,0
+426,120,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,324.0,Steven Kylemax Otieno,2012-05-05,Male,In_Session,72,72,0,78,0,60,50,50,87,0,0,0,0
+427,92,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,322.0,Abel Onuong'a Obwoge,2011-08-08,Male,In_Session,76,70,0,86,0,67,70,60,60,0,0,0,0
+428,93,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,277.0,Anne Akinyi Onasis,2019-07-07,Female,In_Session,70,64,0,0,0,0,0,0,0,0,0,0,0
+429,119,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,47.0,Samwel Odhiambo Ouma,2010-08-22,Male,In_Session,74,64,0,78,0,87,85,70,87,0,0,0,0
+430,98,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,166.0,Cris Otieno Omondi,2011-06-19,Male,In_Session,86,64,0,68,0,87,40,60,73,0,0,0,0
+431,115,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,231.0,Maxwel Otieno Ogweno,2012-08-14,Male,In_Session,60,64,0,72,0,73,50,70,67,0,0,0,0
+432,95,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,135.0,Brigton Otieno Bala,2011-12-11,Male,In_Session,54,62,0,72,0,73,55,70,87,0,0,0,0
+433,94,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,378.0,Bernard Odhiambo Okello,2010-12-25,Male,In_Session,70,62,0,66,0,47,45,60,73,0,0,0,0
+434,116,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,105.0,Mellonie Awuor Odiambo,2012-06-12,Female,In_Session,38,62,0,44,0,40,25,50,47,0,0,0,0
+435,106,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,13.0,Happy Joy Otieno,2015-04-16,Female,In_Session,60,60,0,66,0,53,40,40,67,0,0,0,0
+436,126,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,129.0,Wellington Ondu Odhiambo,,Male,In_Session,82,60,0,68,0,93,80,60,87,0,0,0,0
+437,114,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,292.0,Mary Atieno Oduor,2010-12-24,Female,In_Session,82,56,0,68,0,93,50,100,67,0,0,0,0
+438,112,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,201.0,Maayan chacha Mwita,,Male,In_Session,38,54,0,64,0,33,35,60,53,0,0,0,0
+439,340,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,405.0,Irine Juliet Amondi Okelo,2015-01-05,Female,In_Session,38,52,0,58,0,33,35,50,60,0,0,0,0
+440,365,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,76.0,Moses Jack Odhiambo Oyoo,2010-05-25,Male,In_Session,54,50,0,58,0,33,30,70,60,0,0,0,0
+441,110,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,221.0,Lin Ochieng Ogosy,,Male,In_Session,54,50,0,50,0,47,25,50,73,0,0,0,0
+442,103,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,287.0,Gabriel Ebeneza,2013-06-08,Female,In_Session,22,44,0,72,0,27,40,50,40,0,0,0,0
+443,102,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,104.0,Frankline Ochieng' Odhiambo,2010-05-13,Male,In_Session,22,22,0,42,0,27,40,20,20,0,0,0,0
+444,185,Exams,2020.0,Term 2,Grade1,Quinter Otieno,215.0,Maxwell Samson Oboo,,Male,In_Session,92,62,0,88,0,53,60,80,80,0,0,0,0
+445,160,Exams,2020.0,Term 2,Grade1,Quinter Otieno,331.0,Angel Atieno,2013-08-02,Female,In_Session,98,80,0,94,0,73,70,90,93,0,0,0,0
+446,336,Exams,2020.0,Term 2,Grade1,Quinter Otieno,403.0,Natilie Joy,2013-09-18,Female,In_Session,94,76,0,86,0,67,90,100,93,0,0,0,0
+447,195,Exams,2020.0,Term 2,Grade1,Quinter Otieno,48.0,Rodney Tillen Otieno,2012-07-29,Male,In_Session,92,80,0,92,0,87,80,80,100,0,0,0,0
+448,199,Exams,2020.0,Term 2,Grade1,Quinter Otieno,68.0,Stephany Precious Omondi,2013-07-07,Female,In_Session,98,50,0,28,0,33,50,50,40,0,0,0,0
+449,196,Exams,2020.0,Term 2,Grade1,Quinter Otieno,167.0,Ryza Awino Omondi,2013-03-30,Female,In_Session,92,74,0,84,0,67,80,50,87,0,0,0,0
+450,169,Exams,2020.0,Term 2,Grade1,Quinter Otieno,108.0,Fidel Castro Oloo,2010-08-07,Male,In_Session,84,34,0,36,0,40,60,50,87,0,0,0,0
+451,184,Exams,2020.0,Term 2,Grade1,Quinter Otieno,92.0,Mary Akoth Ojwang',2014-04-06,Female,In_Session,90,80,0,92,0,73,70,50,87,0,0,0,0
+452,187,Exams,2020.0,Term 2,Grade1,Quinter Otieno,79.0,Meryl Ann Odhiambo,,Female,In_Session,88,80,0,86,0,73,70,70,80,0,0,0,0
+453,192,Exams,2020.0,Term 2,Grade1,Quinter Otieno,207.0,Praise Daniel Omondi,2013-03-25,Male,In_Session,90,48,0,74,0,33,40,60,87,0,0,0,0
+454,162,Exams,2020.0,Term 2,Grade1,Quinter Otieno,233.0,Ashlyne Nelly Odiwuor',2012-10-10,Female,In_Session,94,48,0,66,0,53,50,40,80,0,0,0,0
+455,191,Exams,2020.0,Term 2,Grade1,Quinter Otieno,27.0,Paul Onyango,,Male,In_Session,94,96,0,96,0,63,80,90,93,0,0,0,0
+456,189,Exams,2020.0,Term 2,Grade1,Quinter Otieno,85.0,Natasha Alice Mainya,2013-10-14,Female,In_Session,92,62,0,82,0,60,50,30,80,0,0,0,0
+457,194,Exams,2020.0,Term 2,Grade1,Quinter Otieno,344.0,Prinsky Angel Willis,2013-06-26,Female,In_Session,80,60,0,74,0,53,30,50,80,0,0,0,0
+458,179,Exams,2020.0,Term 2,Grade1,Quinter Otieno,74.0,Isacc Omondi Obonyo,2013-05-25,Male,In_Session,90,54,0,74,0,53,30,40,73,0,0,0,0
+459,377,Exams,2020.0,Term 2,Grade1,Quinter Otieno,426.0,Ryan Ochieng,2014-06-08,Male,In_Session,96,90,0,100,0,80,80,90,73,0,0,0,0
+460,176,Exams,2020.0,Term 2,Grade1,Quinter Otieno,260.0,Graffins Omondi Otieno,,Male,In_Session,96,36,0,30,0,33,10,20,67,0,0,0,0
+461,201,Exams,2020.0,Term 2,Grade1,Quinter Otieno,380.0,Camilah Patient Cherotich,2014-01-01,Female,In_Session,98,88,0,100,0,80,90,80,80,0,0,0,0
+462,165,Exams,2020.0,Term 2,Grade1,Quinter Otieno,211.0,Dalmus Ojwang Odhiambo,2012-12-31,Male,In_Session,94,56,0,76,0,33,60,40,60,0,0,0,0
+463,163,Exams,2020.0,Term 2,Grade1,Quinter Otieno,6.0,Brilian Anyango,2012-10-04,Female,In_Session,84,44,0,40,0,27,10,20,47,0,0,0,0
+464,173,Exams,2020.0,Term 2,Grade1,Quinter Otieno,81.0,Genevive Atieno Okello,2013-08-03,Female,In_Session,94,84,0,98,0,67,90,80,80,0,0,0,0
+465,182,Exams,2020.0,Term 2,Grade1,Quinter Otieno,299.0,Luke Braston Ouma,2014-11-19,Male,In_Session,100,90,0,96,0,80,80,100,80,0,0,0,0
+466,197,Exams,2020.0,Term 2,Grade1,Quinter Otieno,176.0,Sara Awino Awuor,,Female,In_Session,86,34,0,22,0,40,10,10,33,0,0,0,0
+467,167,Exams,2020.0,Term 2,Grade1,Quinter Otieno,217.0,Esther-Philis Atieno Juma,2013-06-29,Female,In_Session,92,88,0,94,0,67,90,90,93,0,0,0,0
+468,172,Exams,2020.0,Term 2,Grade1,Quinter Otieno,314.0,Gabriel Edwards Onyango,2013-04-26,Male,In_Session,96,56,0,84,0,47,70,80,73,0,0,0,0
+469,164,Exams,2020.0,Term 2,Grade1,Quinter Otieno,291.0,Charlote Akinyi Odhiambo,,Female,In_Session,92,96,0,98,0,63,100,50,73,0,0,0,0
+470,384,Exams,2020.0,Term 2,Grade1,Quinter Otieno,430.0,Favour Achieng Okello,2021-02-02,Female,In_Session,94,52,0,56,0,53,80,80,60,0,0,0,0
+471,200,Exams,2020.0,Term 2,Grade1,Quinter Otieno,87.0,Whytney Anyango Otieno,2013-12-18,Female,In_Session,84,64,0,92,0,67,60,70,87,0,0,0,0
+472,181,Exams,2020.0,Term 2,Grade1,Quinter Otieno,327.0,Kerina Akinyi,,Female,In_Session,96,74,0,94,0,67,70,90,80,0,0,0,0
+473,174,Exams,2020.0,Term 2,Grade1,Quinter Otieno,326.0,Gerald Otieno Ochieng,2012-11-06,Male,In_Session,94,56,0,82,0,67,40,50,60,0,0,0,0
+474,170,Exams,2020.0,Term 2,Grade1,Quinter Otieno,329.0,Fidel Ochieng' Odhiambo,,Male,In_Session,92,68,0,50,0,47,80,70,80,0,0,0,0
+475,186,Exams,2020.0,Term 2,Grade1,Quinter Otieno,32.0,Mercy Zawadi Ojwang,2013-09-28,Female,In_Session,92,80,0,70,0,67,40,80,87,0,0,0,0
+476,180,Exams,2020.0,Term 2,Grade1,Quinter Otieno,82.0,Jackline Akinyi Juma,,Female,In_Session,84,84,0,82,0,80,60,90,53,0,0,0,0
+477,188,Exams,2020.0,Term 2,Grade1,Quinter Otieno,346.0,Mirriam Anyango Egesa,,Female,In_Session,80,44,0,44,0,47,50,50,73,0,0,0,0
+478,364,Exams,2020.0,Term 2,Grade1,Quinter Otieno,418.0,Samuel Absalom Ongeso Odhiambo,2012-02-12,Male,In_Session,82,46,0,36,0,47,20,40,53,0,0,0,0
+479,175,Exams,2020.0,Term 2,Grade1,Quinter Otieno,270.0,Gloria Adhiambo Ochieng,2012-03-23,Female,In_Session,82,48,0,82,0,47,20,40,67,0,0,0,0
+480,323,Exams,2020.0,Term 2,Grade1,Quinter Otieno,397.0,Charles Agunja,2014-02-10,Male,In_Session,92,80,0,88,0,67,70,80,80,0,0,0,0
+482,178,Exams,2020.0,Term 2,Grade1,Quinter Otieno,29.0,Harriet Awuor Ochieng',2011-08-08,Female,In_Session,92,68,0,76,0,53,80,70,60,0,0,0,0
+483,159,Exams,2020.0,Term 2,Grade1,Quinter Otieno,244.0,Alex Chemberly,2013-11-27,,In_Session,94,66,0,80,0,33,40,30,80,0,0,0,0
+484,171,Exams,2020.0,Term 2,Grade1,Quinter Otieno,34.0,Flora Akoth Odhiambo,2013-03-21,Female,In_Session,94,82,0,88,0,80,80,70,80,0,0,0,0
+485,177,Exams,2020.0,Term 2,Grade1,Quinter Otieno,51.0,Habakuk Odhiambo Omondi,2013-05-19,Male,In_Session,82,82,0,90,0,73,70,90,100,0,0,0,0
+486,350,Exams,2020.0,Term 2,Grade1,Quinter Otieno,415.0,Solomon Ochieng Odhiambo,2013-01-11,Male,In_Session,88,42,0,70,0,33,50,30,73,0,0,0,0
+487,152,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,153.0,Shalquine Atieno Auka,2012-02-28,Female,In_Session,92,98,0,86,0,100,100,100,100,0,0,0,0
+488,156,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,262.0,Victoria Chavuremu Muyesu,2012-08-11,Female,In_Session,86,94,0,84,0,100,85,100,100,0,0,0,0
+489,140,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,315.0,Joel Imani Odhiambo,2012-10-15,Male,In_Session,96,86,0,84,0,92,85,100,100,0,0,0,0
+490,136,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,225.0,Hillary Ignatius Odhiambo,2012-08-31,Male,In_Session,84,90,0,68,0,100,100,100,100,0,0,0,0
+491,142,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,247.0,Keila Babra Jowi,2013-03-30,Female,In_Session,84,90,0,76,0,100,92,100,100,0,0,0,0
+492,148,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,227.0,Randy Martins Jombo,2012-08-31,Male,In_Session,88,88,0,82,0,83,92,100,93,0,0,0,0
+493,131,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,290.0,Bridgit Rebbeca Okoth,2012-04-19,Female,In_Session,92,88,0,76,0,100,92,90,87,0,0,0,0
+494,355,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,411.0,Wicofred Wilkince Odote,2012-09-30,Male,In_Session,96,92,0,78,0,100,69,100,87,0,0,0,0
+495,149,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,7.0,Regan Ochieng Odhiambo,2012-02-02,Female,In_Session,84,82,0,60,0,92,100,100,100,0,0,0,0
+496,157,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,23.0,Victoria Gweth Abira,2013-05-18,Female,In_Session,82,92,0,80,0,100,77,90,86,0,0,0,0
+497,145,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,1.0,Michael Gift Otieno,2013-06-22,Female,In_Session,86,90,0,76,0,83,77,100,87,0,0,0,0
+498,348,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,72.0,Edgar Otieno Olal,2012-11-24,Male,In_Session,86,96,0,82,0,100,77,90,67,0,0,0,0
+499,158,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,15.0,Rosmary Atieno Omondi,2012-12-14,Female,In_Session,66,86,0,73,0,83,85,100,100,0,0,0,0
+500,154,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,144.0,Sylvester Rao Ochieng',2012-10-31,Male,In_Session,70,92,0,72,0,100,85,90,87,0,0,0,0
+501,129,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,289.0,Bistine Ramender Okoth,2012-04-19,Female,In_Session,68,76,0,76,0,92,77,100,100,0,0,0,0
+502,153,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,165.0,Sheryl Atieno Odhiambo,,Female,In_Session,82,84,0,74,0,92,85,100,67,0,0,0,0
+503,356,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,412.0,Arshley Barca Odote,2012-09-30,Female,In_Session,90,92,0,68,0,92,62,90,87,0,0,0,0
+504,151,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,308.0,Sachyl Blessed Oweya,2012-12-26,Female,In_Session,74,88,0,62,0,83,77,100,87,0,0,0,0
+505,138,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,188.0,Jasper Savelle Otieno,2015-06-08,Male,In_Session,94,86,0,58,0,83,54,100,87,0,0,0,0
+506,349,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,26.0,Gregory Castor,2012-01-28,Male,In_Session,88,82,0,72,0,83,62,90,80,0,0,0,0
+507,132,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,255.0,Byron John Onyango,2012-01-01,Male,In_Session,88,78,0,74,0,83,69,100,53,0,0,0,0
+508,130,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,238.0,Bravin Odhiambo,2011-05-27,Female,In_Session,74,76,0,60,0,58,77,100,87,0,0,0,0
+509,134,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,253.0,Elvis Michael Nyagol,2013-01-10,Male,In_Session,68,68,0,74,0,92,77,100,53,0,0,0,0
+510,127,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,202.0,Alian Vukhame Mwita,2013-03-12,Female,In_Session,70,66,0,74,0,67,69,90,73,0,0,0,0
+511,133,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,341.0,Elton Otieno Omondi,2012-01-02,Male,In_Session,92,68,0,52,0,50,54,90,93,0,0,0,0
+512,155,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,2.0,Tashy Vivian Mboya,2012-08-28,Female,In_Session,78,74,0,58,0,75,46,90,53,0,0,0,0
+513,394,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,435.0,June Ochieng Ooko,2012-06-24,Male,In_Session,92,62,0,40,0,58,54,80,87,0,0,0,0
+514,139,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,271.0,Jef Okech Odiyo,2011-11-11,Male,In_Session,56,48,0,60,0,75,54,90,53,0,0,0,0
+515,361,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,110.0,Bonface Amisi Miruka,2013-04-17,Male,In_Session,54,40,0,52,0,58,77,60,53,0,0,0,0
+516,147,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,11.0,Mishael Michael Ochieng,2011-06-20,Male,In_Session,62,58,0,62,0,42,38,70,47,0,0,0,0
+517,137,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,377.0,Isaac Omondi Onyango,2012-12-10,Male,In_Session,66,34,0,76,0,33,77,80,73,0,0,0,0
+518,150,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,183.0,Ryan Sande Ochieng,2011-01-09,Male,In_Session,54,40,0,24,0,42,23,70,67,0,0,0,0
+519,386,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,433.0,Fortune Wisdom Ogola,2012-06-24,Male,In_Session,44,38,0,20,0,33,62,50,47,0,0,0,0
+520,143,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,111.0,Kimberly Amilia Juma,2012-08-28,Female,In_Session,28,26,0,18,0,33,31,60,27,0,0,0,0
+521,146,Exams,2020.0,Term 2,Grade2,Evalyne Akinyi Obuya,5.0,Michael Odhiambo Awuor,2009-11-05,Male,In_Session,14,18,0,8,0,33,15,40,27,0,0,0,0
+522,320,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,300.0,Albright Mitchelle Ouma,2012-02-10,Female,In_Session,40,27,25,30,20,23,30,80,17,23,56,28,44
+523,74,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,313.0,Bill Otieno Onyango,2010-05-15,Male,In_Session,64,40,30,32,40,37,30,83,26,29,65,20,68
+524,75,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,57.0,Brigit Judy Owano,2017-05-22,Female,In_Session,72,41,35,36,40,67,44,87,25,30,65,24,80
+525,77,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,213.0,Delan Charles Odhiambo,2009-11-15,Male,In_Session,56,46,30,37,45,60,40,87,26,25,73,28,72
+526,78,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,212.0,Dylia Sophy Odhiambo,2019-11-14,Female,In_Session,76,47,35,43,40,68,40,93,33,27,71,28,80
+527,80,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,181.0,Ester Precious Magret Liyala,2011-04-03,Female,In_Session,76,46,45,41,45,67,40,90,32,28,68,28,80
+528,81,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,226.0,Katheryn Fejenia Wanyama,2010-06-18,Female,In_Session,68,34,30,31,5,42,36,90,27,26,62,22,68
+529,83,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,252.0,Meths Rino Nyagol,2010-07-23,Male,In_Session,52,40,40,32,30,50,30,87,26,27,62,28,68
+530,84,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,234.0,Patrick Oduor Odhiambo,2007-02-09,Male,In_Session,40,16,10,14,10,25,32,53,13,19,48,20,32
+531,85,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,96.0,Phabian Otieno,2008-01-01,Male,In_Session,52,39,30,30,25,42,34,83,25,30,64,24,76
+532,86,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,37.0,Rebecca Stephanie Ojwang',2010-09-02,Female,In_Session,24,23,10,12,5,25,18,30,13,18,44,24,40
+533,87,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,54.0,Reinhard Levi Onyango,2010-09-10,Male,In_Session,72,43,35,31,25,68,42,83,28,26,66,20,60
+534,88,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,21.0,Rosa Akinyi Aluoch,2010-06-15,Female,In_Session,32,28,20,30,10,28,20,80,21,24,54,26,48
+535,89,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,33.0,Scortfied Joseph Ochieng',,Male,In_Session,46,38,30,34,20,50,30,80,32,37,65,24,80
+536,90,Exams,2020.0,Term 3,Grade4,Rebecca Aswani Manyasa,113.0,Shantel Whitney Otieno,2009-12-23,Female,In_Session,68,42,30,33,25,58,36,93,23,19,67,22,72
+537,409,Exams,,,,,,,,,,78,32,0,56,0,40,30,60,33,0,0,0,0
+538,59,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,186.0,Alstone Abungana Mutenje,2010-02-24,Male,In_Session,32,38,38,31,24,57,0,0,48,0,0,0,0
+539,60,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,84.0,Alstston Ochieng' Alubaka,2009-07-20,Male,In_Session,38,36,35,35,38,71,0,0,70,0,0,0,0
+541,367,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,417.0,Centrine Obiero Agutu,2008-09-10,Female,In_Session,24,27,19,25,16,42,0,0,30,0,0,0,0
+542,62,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,174.0,Fidel Omondi,,Male,In_Session,36,22,25,23,19,40,0,0,28,0,0,0,0
+543,63,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,301.0,Gift Jebet Mutai,2009-09-16,Female,In_Session,34,29,25,26,32,59,0,0,62,0,0,0,0
+544,64,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,209.0,Idah Mary Atieno,2008-11-05,Female,In_Session,72,34,35,32,25,56,0,0,62,0,0,0,0
+545,316,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,384.0,Joe Biden Oyuga,2009-08-04,Male,In_Session,46,37,35,32,24,69,0,0,74,0,0,0,0
+546,65,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,312.0,Kelvin Odhiambo Midigo,,Male,In_Session,32,24,16,27,20,44,0,0,26,0,0,0,0
+547,66,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,239.0,Preverlight Lucy Okal,2008-11-29,Female,In_Session,76,35,33,33,35,57,0,0,58,0,0,0,0
+548,67,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,182.0,Prince Harnest Liyala,2009-07-04,Male,In_Session,56,32,31,27,36,59,0,0,62,0,0,0,0
+549,69,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,216.0,Shem Roy Adams,,,In_Session,52,28,33,36,25,69,0,0,58,0,0,0,0
+550,70,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,195.0,Soniah Riziki Adhiambo,2008-08-18,Female,In_Session,44,26,25,19,13,40,0,0,34,0,0,0,0
+551,71,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,157.0,Stanley Ochieng' Ochia,2009-12-21,Male,In_Session,18,18,13,11,19,34,0,0,42,0,0,0,0
+552,72,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,132.0,Violet Akinyi Owuor,2007-01-02,Female,In_Session,44,20,11,27,23,38,0,0,34,0,0,0,0
+553,73,Exams,2020.0,Term 2,Class5,Nicholus  Otieno,97.0,Walter Kwata Muliro,2009-05-11,Male,In_Session,48,38,38,40,40,79,0,0,72,0,0,0,0
+554,99,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,338.0,David Otieno Agutu,2011-01-29,Male,In_Session,90,96,0,64,0,87,65,90,80,0,0,0,0
+555,118,Exams,2020.0,Term 2,Grade3,Vivian Akinyi Langi,343.0,Ricky Rolex Otieno,2012-08-05,Male,In_Session,68,78,0,86,0,80,75,70,67,0,0,0,0
