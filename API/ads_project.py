@@ -68,7 +68,7 @@ def main():
     Register=pd.merge(left=Register, right=invoice_df, how='left', left_on='id', right_on='ClassRegisterID')
     Register.drop(["id_y"], axis=1, inplace=True)
     Register.rename(columns = {'id_x':'id', }, inplace = True)
-    Register_df = Register.rename(columns=str.lower)
+    Register_df = Register.rename(columns=str.lower) 
 
     Register_df['tot_invoice']=Register_df['bal_bf']+Register_df['uniform']+Register_df['uniform_no']+(Register_df['transport']*Register_df['transport_months'])+ \
         (Register_df['lunch']*Register_df['lunch_months'])+Register_df['otherlevyindv']+Register_df['tutionfee']+Register_df['examfee']+ \
@@ -88,7 +88,7 @@ def main():
         +fee_df["Lunch"] +fee_df["Exams"] +fee_df["BookLvy"] +fee_df["Activity"] +fee_df["OtheLvy"] 
     fee_df['id']=fee_df['id'].astype(object)
     fee_df['ReceiptNo']=fee_df['ReceiptNo'].astype(object)
-    fee_df['DOP1']=pd.to_datetime(fee_df['DOP'] ,format = '%Y-%m-%d') 
+    fee_df['DOP1']=pd.to_datetime(fee_df['DOP'] ,format = '%d/%m/%Y') 
     fee_df['DOP']=pd.to_datetime(fee_df['DOP']).dt.strftime('%d/%m/%Y')
     fees_df=pd.merge(left=fee_df, right=Register_df, how='left', left_on='ClassRegisterID', right_on='classregisterid')
     fees_df = fees_df.rename(columns=str.lower)
@@ -96,9 +96,13 @@ def main():
     fees_df.rename(columns = {'id_x':'id', }, inplace = True)
     fees_df=fees_df[['id', 'receiptno', 'dop', 'year', 'term', 'grade','adm','name_stud', 'enrolstatus', 'admission', 'tuition', 'transport',
         'uniform', 'lunch', 'exams', 'booklvy', 'activity', 'othelvy',  'total_paid','dop1']]
-    fees_df["pay_year"] = fees_df.dop1.dt.year
-    fees_df["pay_month"] = fees_df.dop1.dt.month
+    fees_df["pay_year"] = fees_df.dop1.dt.year 
+    fees_df["pay_month"] = fees_df.dop1.dt.month 
     fees_df["pay_day"] = fees_df.dop1.dt.day
+    fees_df['pay_month']=  fees_df['pay_month'].apply(str)
+    fees_df['pay_year']=  fees_df['pay_year'].apply(str)
+    #fees_df["pay_month"].replace({1:'Jan',2:'Feb',3:'Mar',4:'Apr',5:'May',6:'Jun',7:'July',8:'Aug',9:'Sep',10:'Oct',11:'Nov',12:'Dec' }, inplace=True)
+    
 
     fee_df1=fee_df.groupby(["ClassRegisterID"])["total_paid"].sum().reset_index(name='Total_collection')
     fees_bal_df=pd.merge(left=fee_df1, right=Register_df, how='left', left_on='ClassRegisterID', right_on='classregisterid')
@@ -234,7 +238,10 @@ def main():
                             dict(text='Term 3', x=0.82, y=0.5, font_size=20, showarrow=False)])
             st.plotly_chart(fig)
         if st.checkbox("Monthly Fee Collection"): 
-            st.dataframe(pd.crosstab(fees_df.pay_year, fees_df.pay_month))
+            #fees_df['pay_year']= pd.Categorical(fees_df['pay_year'])
+            #fees_df['pay_month'] = pd.Categorical(fees_df['pay_month'], ['Jan', 'Feb', 'Mar','Apr',  'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']) 
+
+            st.dataframe(pd.crosstab(fees_df.pay_year,  fees_df.pay_month))
             a = fees_df.groupby(["pay_year",'pay_month'])["total_paid"].sum().reset_index(name='Monthl_fee_received')
             fig = px.bar(a, x='pay_month', y='Monthl_fee_received',color='pay_year',barmode='group')
             st.plotly_chart(fig)
