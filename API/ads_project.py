@@ -19,7 +19,7 @@ import cufflinks as cf
 import plotly.express as px 
 import plotly.graph_objects as go
 import requests
-import io
+import io  
 
 from plotly.subplots import make_subplots
 
@@ -74,7 +74,9 @@ def main():
         (Register_df['lunch']*Register_df['lunch_months'])+Register_df['otherlevyindv']+Register_df['tutionfee']+Register_df['examfee']+ \
             Register_df['booklevy'] +Register_df['activityfee']+Register_df['otherlevies']
     Register_df= Register_df[['id', 'year', 'term',"classregisterid", 'grade', 'classteacher', 'staff_id', 'sex_teacher',
-        'name_stud', 'adm', 'dob', 'sex_stud', 'enrolstatus', 'bal_bf', 'tot_invoice']]         
+        'name_stud', 'adm', 'dob', 'sex_stud', 'enrolstatus', 'bal_bf', 'tot_invoice']]      
+    Register_df["grade"].replace({"Baby1":'Baby','Class5':'Grade5',}, inplace=True)
+    
     #Register_df.to_csv(r'API\data\Register_df.csv', index = False)
     #prepare fee data 
     fee_df[['Admission', 'Tuition',
@@ -86,16 +88,18 @@ def main():
         +fee_df["Lunch"] +fee_df["Exams"] +fee_df["BookLvy"] +fee_df["Activity"] +fee_df["OtheLvy"] 
     fee_df['id']=fee_df['id'].astype(object)
     fee_df['ReceiptNo']=fee_df['ReceiptNo'].astype(object)
+    fee_df['DOP1']=pd.to_datetime(fee_df['DOP'] ,format = '%Y-%m-%d') 
     fee_df['DOP']=pd.to_datetime(fee_df['DOP']).dt.strftime('%d/%m/%Y')
-    
-
     fees_df=pd.merge(left=fee_df, right=Register_df, how='left', left_on='ClassRegisterID', right_on='classregisterid')
     fees_df = fees_df.rename(columns=str.lower)
     fees_df.drop(["id_y",'classregisterid'], axis=1, inplace=True)
     fees_df.rename(columns = {'id_x':'id', }, inplace = True)
     fees_df=fees_df[['id', 'receiptno', 'dop', 'year', 'term', 'grade','adm','name_stud', 'enrolstatus', 'admission', 'tuition', 'transport',
-        'uniform', 'lunch', 'exams', 'booklvy', 'activity', 'othelvy',  'total_paid']]
-    
+        'uniform', 'lunch', 'exams', 'booklvy', 'activity', 'othelvy',  'total_paid','dop1']]
+    fees_df["pay_year"] = fees_df.dop1.dt.year
+    fees_df["pay_month"] = fees_df.dop1.dt.month
+    fees_df["pay_day"] = fees_df.dop1.dt.day
+
     fee_df1=fee_df.groupby(["ClassRegisterID"])["total_paid"].sum().reset_index(name='Total_collection')
     fees_bal_df=pd.merge(left=fee_df1, right=Register_df, how='left', left_on='ClassRegisterID', right_on='classregisterid')
     fees_bal_df["bal_cf"] =fees_bal_df["tot_invoice"] - fees_bal_df["Total_collection"] 
@@ -180,8 +184,7 @@ def main():
 
 
     elif selection == 'Data Intergration':
-
-
+        Register_df['grade'] = pd.Categorical(Register_df['grade'], ['Baby', 'PP1', 'PP2','Grade1',  'Grade2', 'Grade3', 'Grade4', 'Grade5'])        
         st.title("Cleaned/Merged Data")
         st.markdown("**Select the data set that you want to view**")
         if st.checkbox("Show Students Dataset"):
@@ -201,18 +204,20 @@ def main():
             st.dataframe(exam_df[exam_df.enrolstatus=='In_Session'][['examtype', 'year', 'term', 'grade',
             'adm', 'name_stud', 'maths', 'englan', 'engcomp', 'kislug', 'kisins', 'social', 'creative',
             'cre', 'science', 'hmscie', 'agric', 'music', 'pe']]) 
-
+    
     elif selection == 'Descriptive Analysis':
+
         st.title("Descriptive Analysis")
         st.markdown("**Select statistics to view**")
-        if st.checkbox("Student Population by Grade"):
-            #st.dataframe(Register_df.drop_duplicates('adm').grade.value_counts() )
-            a = Register_df.groupby(["term",'grade'])["id"].count().reset_index(name='Number')
-            fig = px.bar(a, x='grade', y='Number',color='term',barmode='group')
-            st.plotly_chart(fig)
-            curent_pop=Register_df.drop_duplicates('adm').id.count()
-            st.write("the current student population is ", curent_pop)
+        curent_pop=Register_df.drop_duplicates('adm').id.count()
+        st.write("the current student population is ", curent_pop)
 
+        if st.checkbox("Student Population by Class"):
+            Register_df['grade'] = pd.Categorical(Register_df['grade'], ['Baby', 'PP1', 'PP2','Grade1',  'Grade2', 'Grade3', 'Grade4', 'Grade5'])    
+            a = Register_df.groupby(["term",'grade', 'sex_stud'])["id"].count().reset_index(name='Number')
+            fig = px.bar(a, x='grade', y='Number',color='term',barmode='group',hover_name='sex_stud')
+            st.plotly_chart(fig)
+            
         if st.checkbox("Student Population by Gender"):
             df = Register_df.groupby(["term",'sex_stud'])["id"].count().reset_index(name='Number')
             # Create subplots: use 'domain' type for Pie subplot
@@ -223,10 +228,15 @@ def main():
                         1, 2)
             fig.update_traces(hole=.4, hoverinfo="label+value+name")
             fig.update_layout(
-                title_text="Population by gender in 2020",
+                title_text="Population by gender",
                 # Add annotations in the center of the donut pies.
                 annotations=[dict(text='Term 2', x=0.18, y=0.5, font_size=20, showarrow=False),
                             dict(text='Term 3', x=0.82, y=0.5, font_size=20, showarrow=False)])
+            st.plotly_chart(fig)
+        if st.checkbox("Monthly Fee Collection"): 
+            st.dataframe(pd.crosstab(fees_df.pay_year, fees_df.pay_month))
+            a = fees_df.groupby(["pay_year",'pay_month'])["total_paid"].sum().reset_index(name='Monthl_fee_received')
+            fig = px.bar(a, x='pay_month', y='Monthl_fee_received',color='pay_year',barmode='group')
             st.plotly_chart(fig)
 if __name__ =='__main__':
     main() 
