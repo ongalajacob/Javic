@@ -25,22 +25,22 @@ from plotly.subplots import make_subplots
 
 
 ########################### Display text ###########################################
-#Display text
-#images
-#from PIL import Image
-#im = Image.open("https://github.com/ongalajacob/Javic/blob/main/API/images/logo.jpg")
-#st.image(im, width=150)
 
+#student = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/student.csv'
+#class_session = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/class_session.csv'
+#classregister = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/classregister.csv'
+#invoice = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/invoice.csv'
+#employees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/employees.csv'
+#fees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/fees.csv'
+#exams = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/exams.csv'
 
-student = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/student.csv'
-class_session = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/class_session.csv'
-classregister = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/classregister.csv'
-invoice = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/invoice.csv'
-employees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/employees.csv'
-fees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/fees.csv'
-exams = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/exams.csv'
-
-
+student = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_student.csv'
+class_session = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_class_session.csv'
+classregister = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_classregister.csv'
+invoice = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_invoice.csv'
+employees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_employees.csv'
+fees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_fees.csv'
+exams = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_exams.csv'
 
 def main():
     stud_df = pd.read_csv(student)
@@ -88,8 +88,8 @@ def main():
         +fee_df["Lunch"] +fee_df["Exams"] +fee_df["BookLvy"] +fee_df["Activity"] +fee_df["OtheLvy"] 
     fee_df['id']=fee_df['id'].astype(object)
     fee_df['ReceiptNo']=fee_df['ReceiptNo'].astype(object)
-    fee_df['DOP1']=pd.to_datetime(fee_df['DOP'] ,format = '%d/%m/%Y') 
-    fee_df['DOP']=pd.to_datetime(fee_df['DOP']).dt.strftime('%d/%m/%Y')
+    fee_df['DOP1']=pd.to_datetime(fee_df['DOP'] ,format = '%Y-%m-%d') 
+    fee_df['DOP']=pd.to_datetime(fee_df['DOP']).dt.strftime('%Y-%m-%d')
     fees_df=pd.merge(left=fee_df, right=Register_df, how='left', left_on='ClassRegisterID', right_on='classregisterid')
     fees_df = fees_df.rename(columns=str.lower)
     fees_df.drop(["id_y",'classregisterid'], axis=1, inplace=True)
@@ -99,7 +99,7 @@ def main():
     fees_df["pay_year"] = fees_df.dop1.dt.year 
     fees_df["pay_month"] = fees_df.dop1.dt.month 
     fees_df["pay_day"] = fees_df.dop1.dt.day
-    fees_df['pay_month']=  fees_df['pay_month'].apply(str)
+    fees_df['year']=  fees_df['year'].apply(str)
     fees_df['pay_year']=  fees_df['pay_year'].apply(str)
     #fees_df["pay_month"].replace({1:'Jan',2:'Feb',3:'Mar',4:'Apr',5:'May',6:'Jun',7:'July',8:'Aug',9:'Sep',10:'Oct',11:'Nov',12:'Dec' }, inplace=True)
     
@@ -109,6 +109,7 @@ def main():
     fees_bal_df["bal_cf"] =fees_bal_df["tot_invoice"] - fees_bal_df["Total_collection"] 
     fees_bal_df=fees_bal_df[['ClassRegisterID','year', 'term','grade',  'adm','name_stud','enrolstatus',  'bal_bf', 'tot_invoice', 'Total_collection','bal_cf']]
     fees_bal_df = fees_bal_df.rename(columns=str.lower)
+    fees_bal_df['year']=  fees_bal_df['year'].apply(str)
     
     #Exams 
     exam_df=pd.merge(left=exams_df, right=Register_df, how='left', left_on='ClassRegisterID', right_on='classregisterid')
@@ -210,41 +211,97 @@ def main():
             'cre', 'science', 'hmscie', 'agric', 'music', 'pe']]) 
     
     elif selection == 'Descriptive Analysis':
-
         st.title("Descriptive Analysis")
-        st.markdown("**Select statistics to view**")
-        curent_pop=Register_df.drop_duplicates('adm').id.count()
-        st.write("the current student population is ", curent_pop)
+        if st.checkbox("Student Population"):
+            curent_pop=Register_df.drop_duplicates('adm').id.count()
+            st.write("the current student population is ", curent_pop)
+            stud_select = st.radio( "Select statistics to view", ('Population by Class', 'Population by Gender'))
+            if stud_select == 'Population by Class': 
+                Register_df['grade'] = pd.Categorical(Register_df['grade'], ['Baby', 'PP1', 'PP2','Grade1',  'Grade2', 'Grade3', 'Grade4', 'Grade5'])    
+                a = Register_df.groupby(["term",'grade', 'sex_stud'])["id"].count().reset_index(name='Number')
+                fig = px.bar(a, x='grade', y='Number',color='term',barmode='group',hover_name='sex_stud',text='Number',)
+                st.plotly_chart(fig)
+                
+            if stud_select == 'Population by Gender': 
+                df = Register_df.groupby(["term",'sex_stud'])["id"].count().reset_index(name='Number')
+                # Create subplots: use 'domain' type for Pie subplot
+                fig = make_subplots(rows=1, cols=2, specs=[[{'type':'domain'}, {'type':'domain'}]])
+                fig.add_trace(go.Pie(labels=df[df.term== 'Term 2'].sex_stud.array, values=df[df.term== 'Term 2'].Number.array, name="Term 2"),
+                            1, 1)
+                fig.add_trace(go.Pie(labels=df[df.term== 'Term 3'].sex_stud.array, values=df[df.term== 'Term 3'].Number.array, name="Term 3"),
+                            1, 2)
+                fig.update_traces(hole=.4, hoverinfo="label+value+name")
+                fig.update_layout(
+                    title_text="Population by gender",
+                    # Add annotations in the center of the donut pies.
+                    annotations=[dict(text='Term 2', x=0.18, y=0.5, font_size=20, showarrow=False),
+                                dict(text='Term 3', x=0.82, y=0.5, font_size=20, showarrow=False)])
+                st.plotly_chart(fig)
+        if st.checkbox("Fee Collection Statistics"):
+            fees_select = st.radio( "Choose fee collection data to view", ('monthly collection', 'Termly collection', 'Collection by Class', 'Number of payments per day'))
+            if fees_select == 'monthly collection': 
+                #fees_df['pay_year']= pd.Categorical(fees_df['pay_year'])
+                #fees_df['pay_month'] = pd.Categorical(fees_df['pay_month'], ['Jan', 'Feb', 'Mar','Apr',  'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']) 
+                #fees_df.sort_values('pay_month',inplace=True, ascending=True)
+                fees_df['pay_month'] = fees_df['pay_month'].replace([1, 2,3,4,5,6,7,8,9,10,11,12],   ['Jan', 'Feb', 'Mar','Apr',  'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']) 
 
-        if st.checkbox("Student Population by Class"):
-            Register_df['grade'] = pd.Categorical(Register_df['grade'], ['Baby', 'PP1', 'PP2','Grade1',  'Grade2', 'Grade3', 'Grade4', 'Grade5'])    
-            a = Register_df.groupby(["term",'grade', 'sex_stud'])["id"].count().reset_index(name='Number')
-            fig = px.bar(a, x='grade', y='Number',color='term',barmode='group',hover_name='sex_stud')
-            st.plotly_chart(fig)
-            
-        if st.checkbox("Student Population by Gender"):
-            df = Register_df.groupby(["term",'sex_stud'])["id"].count().reset_index(name='Number')
-            # Create subplots: use 'domain' type for Pie subplot
-            fig = make_subplots(rows=1, cols=2, specs=[[{'type':'domain'}, {'type':'domain'}]])
-            fig.add_trace(go.Pie(labels=df[df.term== 'Term 2'].sex_stud.array, values=df[df.term== 'Term 2'].Number.array, name="Term 2"),
-                        1, 1)
-            fig.add_trace(go.Pie(labels=df[df.term== 'Term 3'].sex_stud.array, values=df[df.term== 'Term 3'].Number.array, name="Term 3"),
-                        1, 2)
-            fig.update_traces(hole=.4, hoverinfo="label+value+name")
-            fig.update_layout(
-                title_text="Population by gender",
-                # Add annotations in the center of the donut pies.
-                annotations=[dict(text='Term 2', x=0.18, y=0.5, font_size=20, showarrow=False),
-                            dict(text='Term 3', x=0.82, y=0.5, font_size=20, showarrow=False)])
-            st.plotly_chart(fig)
-        if st.checkbox("Monthly Fee Collection"): 
-            #fees_df['pay_year']= pd.Categorical(fees_df['pay_year'])
-            #fees_df['pay_month'] = pd.Categorical(fees_df['pay_month'], ['Jan', 'Feb', 'Mar','Apr',  'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']) 
+                # st.dataframe(pd.crosstab(fees_df.pay_year,  fees_df.pay_month))
+                a = fees_df.groupby(["pay_year",'pay_month'])["total_paid"].sum().reset_index(name='Monthl_fee_received')
+                fig = px.bar(a, x='pay_month', y='Monthl_fee_received',color='pay_year',barmode='group',text='Monthl_fee_received',
+                labels=dict(pay_month="Month", pay_year="Year", Monthl_fee_received="Fee received (Ksh)"))
+                fig.update_xaxes(type='category')
+                st.plotly_chart(fig)
+            if fees_select == 'Termly collection': 
+                #st.dataframe(pd.crosstab(fees_df.year,  fees_df.term))
+                a = fees_df.groupby(["year",'term'])["total_paid"].sum().reset_index(name='Termly_fee_received')
+                fig = px.bar(a, x='term', y='Termly_fee_received',color='year',barmode='group',text='Termly_fee_received',
+                labels=dict(term="Term", year="Year", Termly_fee_received="Fee received (Ksh)"))
+                st.plotly_chart(fig)
+            if fees_select == 'Collection by Class':
+                #st.dataframe(pd.crosstab(fees_df.year,  fees_df.term))
+                a = fees_df.groupby(["year",'grade', 'term' ])["total_paid"].sum().reset_index(name='Fee_by_grade')
+                fig = px.bar(a, x='grade', y='Fee_by_grade',color='year',facet_row='term', barmode='group', text='Fee_by_grade',
+                labels=dict(grade="Grade", year="Year", Fee_by_grade="Fee received (Ksh)", term='Term'))
+                st.plotly_chart(fig)
+            if fees_select == 'Number of payments per day':
+                #st.dataframe(pd.crosstab(fees_df.year,  fees_df.term))
+                a = fees_df.groupby(['pay_day','pay_month'])["receiptno"].count().reset_index(name='counts')
+                a = a.groupby(['pay_day'])["counts"].mean().reset_index(name='Average')
+                fig = px.line(a, x='pay_day', y='Average', 
+                labels=dict(pay_day="Day of the month", Average="Average number of Payments"))
+                st.plotly_chart(fig)
+        if st.checkbox("Fee balance Statistics"):
+            fees_select = st.radio( "Choose fee Balances Information to view", ('Fee Balances Table', 'Fee balances Charts', 'Individual Fee Balance', 'Bad debts'))
+            if fees_select == 'Fee Balances Table':
+                fees_bal_df=fees_bal_df[fees_bal_df.enrolstatus =='In_Session']
+                fees_bal_df=fees_bal_df.drop(['classregisterid', 'enrolstatus'], axis=1).sort_values(['year', 'term', 'grade','name_stud', 'adm' ], ascending = (False, False, True, True, False))
+                st.dataframe(fees_bal_df)
+               
+            if fees_select == 'Fee balances Charts':
+                
+                a = fees_bal_df.groupby(['year', 'term', 'grade',])[["bal_bf", "tot_invoice" ,"bal_cf" ]].sum().reset_index()
+                fig = px.bar(a, x='grade', y='bal_bf',color='year',facet_col='term', barmode='group', text='bal_bf',
+                labels=dict(grade="Grade", year="Year", bal_bf="Fee Balance (Ksh)", term='Term'))
+                fig2 = px.bar(a, x='grade', y='bal_cf',color='year',facet_col='term', barmode='group', text='bal_cf',
+                labels=dict(grade="Grade", year="Year", bal_cf="Fee Balance (Ksh)", term='Term'))
+                st.plotly_chart(fig)
+                st.plotly_chart(fig2)
+           
+               
+            if fees_select == 'Individual Fee Balance':
+                ADM = st.number_input('Enter Admission Number:', value = 0)
+                fees_bal_df=fees_bal_df.loc[fees_bal_df['adm'] == ADM]
+                fees_bal_df=fees_bal_df.drop(['classregisterid', 'enrolstatus'], axis=1).sort_values(['bal_cf', 'year'], ascending = (False,False))
+                st.dataframe(fees_bal_df)     
+               
+               
+            if fees_select == 'Bad debts':
+                fees_bal_df=fees_bal_df.loc[(fees_bal_df['enrolstatus'] == 'exits') & fees_bal_df['bal_cf'] >0]
+                fees_bal_df=fees_bal_df.drop(['classregisterid', 'enrolstatus'], axis=1).sort_values(['bal_cf', 'year'], ascending = (False,False))
+                st.dataframe(fees_bal_df)
+               
+               
 
-            st.dataframe(pd.crosstab(fees_df.pay_year,  fees_df.pay_month))
-            a = fees_df.groupby(["pay_year",'pay_month'])["total_paid"].sum().reset_index(name='Monthl_fee_received')
-            fig = px.bar(a, x='pay_month', y='Monthl_fee_received',color='pay_year',barmode='group')
-            st.plotly_chart(fig)
 if __name__ =='__main__':
     main() 
 
