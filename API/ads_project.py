@@ -41,6 +41,7 @@ invoice = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/ja
 employees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_employees.csv'
 fees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_fees.csv'
 exams = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_exams.csv'
+model ='https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_exams.csv'
 
 def main():
     stud_df = pd.read_csv(student)
@@ -121,6 +122,12 @@ def main():
     exam_df = exam_df.rename(columns=str.lower)
     exam_df['year'] = pd.to_numeric(exam_df['year'], errors='coerce')
     exam_df['adm'] = pd.to_numeric(exam_df['adm'], errors='coerce')
+    subjects=['maths', 'englan', 'engcomp', 'kislug', 'kisins', 'social', 'creative',
+       'cre', 'science', 'hmscie', 'agric', 'music', 'pe']
+    exam_df['Tot_marks'] = exam_df[subjects].sum(numeric_only=True, axis=1)
+    exam_df=exam_df.dropna()
+    exam_df['year'] = exam_df.year.astype(int) 
+    exam_df['adm'] = exam_df.adm.astype(int)  
 
     selection = st.sidebar.selectbox('Select your analysis option:', 
         ('Background Information', 'Data Intergration', 'Descriptive Analysis', 'Machine Learning'))
@@ -171,8 +178,8 @@ def main():
         st.markdown(Problem)
         st.markdown("* Study the student population (interm of gender, grade, term and year)")
         st.markdown("* Monitor fee collection  and establish fee balance status")
-        st.markdown("* Report on students perormance ")
-        st.markdown("* Monitor financial aspect for Lunch programss and transport programs  and advise on their viability")
+        st.markdown("* Report on students perormance  ")
+        st.markdown("* Cluster subjects according to Students performance")
         st.markdown("* Categorize students in their fee payment behaviors and academic perofmance to help in restructuring future admission creteria")
 
 
@@ -299,9 +306,109 @@ def main():
                 fees_bal_df=fees_bal_df.loc[(fees_bal_df['enrolstatus'] == 'exits') & fees_bal_df['bal_cf'] >0]
                 fees_bal_df=fees_bal_df.drop(['classregisterid', 'enrolstatus'], axis=1).sort_values(['bal_cf', 'year'], ascending = (False,False))
                 st.dataframe(fees_bal_df)
-               
-               
+        if st.checkbox("Academic Statistics"):
+            exam_df=exam_df.drop(['id', 'classteacher',  'dob', 'sex_stud'], axis=1).dropna()
+            exam_df=exam_df[exam_df.enrolstatus =='In_Session']
+            yr = st.slider("Select Year", min_value=2020, max_value=2030, value=2020, step=1)
+            tm = st.selectbox("Select Term",options=['Term 1' , 'Term 2', 'Term 3'])
+            grd = st.selectbox("Select Grade",options=['Baby', 'PP1', 'PP2', 'Grade1', 'Grade2', 'Grade3', 'Grade4', 'Grade5'])
+            exam_df=exam_df[(exam_df.year==yr)& (exam_df.term ==tm) & (exam_df.grade==grd)]
+            exam_df=exam_df.groupby(["adm", 'name_stud'])['maths', 'englan', 'engcomp', 'kislug', 'kisins', 'social', 'creative', 'cre', 'science', 'hmscie', 'agric', 'music', 'pe',
+            'Tot_marks'].mean().reset_index().sort_values('Tot_marks', ascending = (False)) 
+            exam_df[['maths', 'englan', 'engcomp', 'kislug', 'kisins', 'social', 'creative', 'cre', 'science', 'hmscie', 'agric', 'music', 'pe','Tot_marks']] = exam_df[['maths', 'englan', 'engcomp', 'kislug', 'kisins', 'social', 'creative', 'cre', 'science', 'hmscie', 'agric', 'music', 'pe', 'Tot_marks']].astype(int)
+                    
+            if grd in ['Baby', 'PP1', 'PP2']:
+                exam_df['pos'] =exam_df.Tot_marks.rank(ascending=False).apply(np.floor).astype(int)
+                exam_df.rename(columns = {'adm':'ADM','name_stud':'Name','maths':'Mathematics', 'englan':'Language', 'kislug':'Kiswahili',  'science':'Enviromental',  'cre':'Religious',  'creative':'Creative',   
+                'Tot_marks':'Total'}, inplace = True)
+                if grd in ['Baby', 'PP1']:
+                    exam_df=exam_df[['ADM', 'Name', 'pos', 'Mathematics', 'Language', 'Creative', 'Religious', 'Enviromental', 'Total']]
+                    st.dataframe(exam_df)       
+                else :
+                    exam_df=exam_df[['ADM', 'Name', 'pos', 'Mathematics', 'Language', 'Creative', 'Religious', 'Enviromental','Kiswahili', 'Total']]
+                    st.dataframe(exam_df) 
 
+            if grd in ['Grade1', 'Grade2', 'Grade3']:
+                exam_df['pos'] =exam_df.Tot_marks.rank(ascending=False).apply(np.floor).astype(int)
+                exam_df['Kiswahili'] =exam_df['kislug']+exam_df['kisins'];exam_df['English'] =exam_df['englan']+exam_df['engcomp']
+                exam_df.rename(columns = {'adm':'ADM','name_stud':'Name','maths':'Mathematics',  'social':'Hygiene' ,'science':'Enviromental',  'cre':'CRE',  'creative':'Creative',   
+                'Tot_marks':'Total'}, inplace = True)
+                exam_df=exam_df[['ADM', 'Name', 'pos', 'Mathematics', 'English','Kiswahili','Hygiene', 'Enviromental','CRE', 'Creative', 'Total']]
+                st.dataframe(exam_df)  
+
+                
+            if grd in ['Grade4']:
+                exam_df['pos'] =exam_df.Tot_marks.rank(ascending=False).apply(np.floor).astype(int)
+                exam_df['Kiswahili'] =exam_df['kislug']+exam_df['kisins'];exam_df['English'] =exam_df['englan']+exam_df['engcomp']
+                exam_df.rename(columns = {'adm':'ADM','name_stud':'Name','maths':'Mathematics',  'social':'S/Studies' ,'science':'Science',  'cre':'CRE',  'creative':'Art&Craft',   
+                'hmscie':'H/Science', 'agric':'Agric', 'music':'Music', 'pe':'PE','Tot_marks':'Total'}, inplace = True)
+                exam_df=exam_df[['ADM', 'Name', 'pos', 'Mathematics', 'English','Kiswahili','Science','H/Science','Agric','Art&Craft', 'Music','S/Studies' ,'CRE', 'PE', 'Total']]
+                st.dataframe(exam_df)     
+
+            if grd in ['Grade5']:
+                exam_df['pos'] =exam_df.Tot_marks.rank(ascending=False).apply(np.floor).astype(int)
+                exam_df['Kiswahili'] =exam_df['kislug']+exam_df['kisins'];exam_df['English'] =exam_df['englan']+exam_df['engcomp']
+                exam_df.rename(columns = {'adm':'ADM','name_stud':'Name','maths':'Mathematics',  'social':'S/Studies' ,'science':'Science','Tot_marks':'Total'}, inplace = True)
+                exam_df=exam_df[['ADM', 'Name', 'pos', 'Mathematics', 'English','Kiswahili','Science','S/Studies' , 'Total']]
+                st.dataframe(exam_df) 
+    
+    else :   
+        st.title("Machine Learning ")
+       
+        if st.checkbox("Classification of students in Academics"):
+            st.write("Below is the Performance predictions of students ")
+
+            def modelling_Javic(df):
+                df=df.dropna()
+                df['year'] = df.year.astype(int) 
+                df['Max_marks'] =df['grade']
+                df["Max_marks"].replace({"Baby":500,  'PP1':500,'PP2':600,'Grade1':700,'Grade2':700,'Grade3':700,'Grade4':1100,'Grade5':500}, inplace=True)
+                df['performance'] =100*df['Tot_marks'] /df['Max_marks'] 
+                df['bal_bf'] =100*df['bal_bf'] /df['tot_invoice']    
+                df['total_collection'] =100*df['total_collection'] /df['tot_invoice']  
+                df['bal_cf'] =100*df['bal_cf'] /df['tot_invoice'] 
+                df= df.rename(columns=str.lower)
+                df.loc[df['transport'] > 0, 'transport'] = 1
+                df.loc[df['lunch'] > 0, 'lunch'] = 1
+                df['transport'] = df.transport.astype(int) 
+                df['lunch'] = df.lunch.astype(int) 
+                df=df.drop_duplicates('classregisterid', keep='last')
+                df=df[['name','adm','term', 'grade', 'classteacher', 'sex','transport', 'lunch', 'bal_bf', 'total_collection', 'bal_cf', 'performance']]
+                df=df[(df.bal_bf > -50)&(df.bal_bf < 150)] #Avoiding very large of very small balance bf
+                df=df[['name','adm','grade', 'sex','transport', 'lunch', 'bal_bf', 'total_collection', 'bal_cf', 'performance']]
+                
+                categorical = []
+                for column in df.columns:
+                    if df[column].dtypes != 'float64':
+                        categorical.append(column)
+
+
+                continuous  = []
+                for column in df.columns:
+                    if df[column].dtypes == 'float64':
+                        continuous .append(column)
+                continuous.remove('performance')
+
+                threshold = 0.3705
+                zscore = np.abs(stats.zscore(df[['bal_bf']]))
+                df = df[(zscore > threshold).all(axis = 1)]
+                df1=df.copy()
+                encoded_features = {}
+                for column in categorical:
+                    encoded_features[column] = df.groupby([column])['performance'].median().to_dict()
+                    df[column] = df[column].map(encoded_features[column])
+                X = df.drop(['performance','adm','name'], axis = 1)
+                Y_pred = model.predict(X)
+                df1['Predicted_performance'] = Y_pred
+                predicted=df1[['adm','name','Predicted_performance']]
+                return predicted
+            predicted = modelling_Javic(ML_df)
+            st.dataframe(predicted)
+
+        
+
+        
+            
 if __name__ =='__main__':
     main() 
 
