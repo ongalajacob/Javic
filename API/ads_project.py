@@ -22,6 +22,16 @@ import requests
 import io  
 
 from plotly.subplots import make_subplots
+from scipy import stats
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.linear_model import ElasticNet
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import BaggingRegressor, AdaBoostRegressor, RandomForestRegressor
+from sklearn.model_selection import RandomizedSearchCV
+import pickle
+import warnings
 
 
 ########################### Display text ###########################################
@@ -41,7 +51,7 @@ invoice = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/ja
 employees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_employees.csv'
 fees = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_fees.csv'
 exams = 'https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_exams.csv'
-model ='https://raw.githubusercontent.com/ongalajacob/Javic/main/2021_data/javicjun_schms_table_exams.csv'
+#model ='https://github.com/ongalajacob/Javic/blob/main/API/Javic_prediction_model.pkl'
 
 def main():
     stud_df = pd.read_csv(student)
@@ -128,6 +138,17 @@ def main():
     exam_df=exam_df.dropna()
     exam_df['year'] = exam_df.year.astype(int) 
     exam_df['adm'] = exam_df.adm.astype(int)  
+
+    ####################
+    ML_df=pd.merge(left=exam_df, right=fee_df, how='right', left_on='classregisterid', right_on='ClassRegisterID')
+    ML_df.drop(["id_y",'examtype','enrolstatus','ClassRegisterID','ReceiptNo', 'DOP','DOP1'], axis=1, inplace=True)
+    ML_df.rename(columns = {'id_x':'id', }, inplace = True)
+
+    ML_df=pd.merge(left=ML_df, right=fees_bal_df, how='right', left_on='classregisterid', right_on='classregisterid')
+    ML_df.drop(['year_y', 'term_y', 'grade_y','Admission', 'Tuition', 'Uniform', 'Exams', 'BookLvy', 'Activity', 'OtheLvy',
+        'total_paid','id', 'adm_x',  'name_stud_x','enrolstatus','maths', 'englan', 'engcomp', 'kislug', 'kisins', 'social', 'creative', 'cre',
+        'science', 'hmscie', 'agric', 'music', 'pe','dob'], axis=1, inplace=True)
+    ML_df.rename(columns = {'year_x':'year', 'term_x':'term', 'grade_x':'grade','sex_stud':'sex', 'name_stud_y':'name', 'adm_y':'adm' }, inplace = True)
 
     selection = st.sidebar.selectbox('Select your analysis option:', 
         ('Background Information', 'Data Intergration', 'Descriptive Analysis', 'Machine Learning'))
@@ -355,9 +376,14 @@ def main():
     else :   
         st.title("Machine Learning ")
        
-        if st.checkbox("Classification of students in Academics"):
+        if st.checkbox("Prediction of students performance"):
             st.write("Below is the Performance predictions of students ")
-
+            model = RandomForestRegressor(n_estimators=160,
+                                   min_samples_leaf=3,
+                                    min_samples_split=16,
+                                    max_features='auto',
+                                    n_jobs=-1,
+                                   random_state=42)
             def modelling_Javic(df):
                 df=df.dropna()
                 df['year'] = df.year.astype(int) 
@@ -398,6 +424,7 @@ def main():
                     encoded_features[column] = df.groupby([column])['performance'].median().to_dict()
                     df[column] = df[column].map(encoded_features[column])
                 X = df.drop(['performance','adm','name'], axis = 1)
+                model.fit(X, df['performance'])
                 Y_pred = model.predict(X)
                 df1['Predicted_performance'] = Y_pred
                 predicted=df1[['adm','name','Predicted_performance']]
